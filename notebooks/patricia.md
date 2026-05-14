@@ -1,4 +1,3 @@
-
 ## I. Introduction
 
 The exponential growth of urban mobility data presents significant opportunities for data-driven decision making in transportation systems. New York City, one of the most densely populated cities in the world, generates millions of taxi trip records every month, providing a rich source of data for analysis and predictive modelling.
