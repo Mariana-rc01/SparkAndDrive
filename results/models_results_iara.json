@@ -1,0 +1,300 @@
+{
+    "runs": [
+        {
+            "timestamp": "2026-05-16 16:29:08",
+            "spark_mode": "baseline",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 1,
+                "executor_memory": "3g",
+                "shuffle_partitions": 50,
+                "adaptive": false
+            },
+            "model_results": [
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.288,
+                        "r2": 0.9662,
+                        "mae": 1.2109,
+                        "mse": 5.2348
+                    },
+                    "execution_time_seconds": 623.91
+                },
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.0208,
+                        "r2": 0.8396,
+                        "mae": 2.3487,
+                        "mse": 16.1668
+                    },
+                    "execution_time_seconds": 506.73
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-16 17:06:30",
+            "spark_mode": "balanced",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 2,
+                "executor_memory": "4g",
+                "shuffle_partitions": 100,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.288,
+                        "r2": 0.9662,
+                        "mae": 1.2109,
+                        "mse": 5.2348
+                    },
+                    "execution_time_seconds": 496.94
+                },
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.0208,
+                        "r2": 0.8396,
+                        "mae": 2.3487,
+                        "mse": 16.1668
+                    },
+                    "execution_time_seconds": 496.84
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-16 17:28:00",
+            "spark_mode": "high_parallelism",
+            "spark_config": {
+                "executor_instances": 3,
+                "executor_cores": 2,
+                "executor_memory": "4g",
+                "shuffle_partitions": 150,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.288,
+                        "r2": 0.9662,
+                        "mae": 1.2109,
+                        "mse": 5.2348
+                    },
+                    "execution_time_seconds": 494.11
+                },
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.0208,
+                        "r2": 0.8396,
+                        "mae": 2.3487,
+                        "mse": 16.1668
+                    },
+                    "execution_time_seconds": 493.12
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-16 17:46:49",
+            "spark_mode": "memory_optimized",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 1,
+                "executor_memory": "6g",
+                "shuffle_partitions": 100,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.288,
+                        "r2": 0.9662,
+                        "mae": 1.2109,
+                        "mse": 5.2348
+                    },
+                    "execution_time_seconds": 490.76
+                },
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.0208,
+                        "r2": 0.8396,
+                        "mae": 2.3487,
+                        "mse": 16.1668
+                    },
+                    "execution_time_seconds": 495.77
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-16 18:06:44",
+            "spark_mode": "stress_test",
+            "spark_config": {
+                "executor_instances": 4,
+                "executor_cores": 2,
+                "executor_memory": "3g",
+                "shuffle_partitions": 200,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.288,
+                        "r2": 0.9662,
+                        "mae": 1.2109,
+                        "mse": 5.2348
+                    },
+                    "execution_time_seconds": 492.65
+                },
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.0208,
+                        "r2": 0.8396,
+                        "mae": 2.3487,
+                        "mse": 16.1668
+                    },
+                    "execution_time_seconds": 492.83
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-16 18:23:56",
+            "spark_mode": "low_overhead",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 2,
+                "executor_memory": "4g",
+                "shuffle_partitions": 25,
+                "adaptive": false
+            },
+            "model_results": [
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.288,
+                        "r2": 0.9662,
+                        "mae": 1.2109,
+                        "mse": 5.2348
+                    },
+                    "execution_time_seconds": 491.11
+                },
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.0208,
+                        "r2": 0.8396,
+                        "mae": 2.3487,
+                        "mse": 16.1668
+                    },
+                    "execution_time_seconds": 487.92
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-16 18:46:41",
+            "spark_mode": "aqe_only",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 1,
+                "executor_memory": "3g",
+                "shuffle_partitions": 50,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.288,
+                        "r2": 0.9662,
+                        "mae": 1.2109,
+                        "mse": 5.2348
+                    },
+                    "execution_time_seconds": 492.27
+                },
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.0208,
+                        "r2": 0.8396,
+                        "mae": 2.3487,
+                        "mse": 16.1668
+                    },
+                    "execution_time_seconds": 489.0
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-16 19:16:16",
+            "spark_mode": "cpu_heavy",
+            "spark_config": {
+                "executor_instances": 3,
+                "executor_cores": 3,
+                "executor_memory": "3g",
+                "shuffle_partitions": 150,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.288,
+                        "r2": 0.9662,
+                        "mae": 1.2109,
+                        "mse": 5.2348
+                    },
+                    "execution_time_seconds": 488.01
+                },
+                {
+                    "model_name": "LinearRegression_Ridge_Std",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.0208,
+                        "r2": 0.8396,
+                        "mae": 2.3487,
+                        "mse": 16.1668
+                    },
+                    "execution_time_seconds": 486.33
+                }
+            ]
+        }
+    ]
+}
