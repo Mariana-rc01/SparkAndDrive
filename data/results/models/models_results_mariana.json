@@ -1,0 +1,300 @@
+{
+    "runs": [
+        {
+            "timestamp": "2026-05-18 14:36:15",
+            "spark_mode": "baseline",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 1,
+                "executor_memory": "3g",
+                "shuffle_partitions": 50,
+                "adaptive": false
+            },
+            "model_results": [
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 1.7721,
+                        "r2": 0.9797,
+                        "mae": 0.614,
+                        "mse": 3.1404
+                    },
+                    "execution_time_seconds": 667.99
+                },
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.8737,
+                        "r2": 0.8511,
+                        "mae": 1.4434,
+                        "mse": 15.0059
+                    },
+                    "execution_time_seconds": 514.96
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-18 16:32:39",
+            "spark_mode": "balanced",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 2,
+                "executor_memory": "4g",
+                "shuffle_partitions": 100,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 1.691,
+                        "r2": 0.9816,
+                        "mae": 0.5982,
+                        "mse": 2.8594
+                    },
+                    "execution_time_seconds": 504.52
+                },
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.8562,
+                        "r2": 0.8531,
+                        "mae": 1.4091,
+                        "mse": 14.8705
+                    },
+                    "execution_time_seconds": 398.64
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-18 16:55:35",
+            "spark_mode": "high_parallelism",
+            "spark_config": {
+                "executor_instances": 3,
+                "executor_cores": 2,
+                "executor_memory": "4g",
+                "shuffle_partitions": 150,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 1.764,
+                        "r2": 0.9799,
+                        "mae": 0.6171,
+                        "mse": 3.1118
+                    },
+                    "execution_time_seconds": 515.42
+                },
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.8713,
+                        "r2": 0.8514,
+                        "mae": 1.4453,
+                        "mse": 14.9866
+                    },
+                    "execution_time_seconds": 389.55
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-18 17:43:19",
+            "spark_mode": "memory_optimized",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 1,
+                "executor_memory": "6g",
+                "shuffle_partitions": 100,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 1.7057,
+                        "r2": 0.9813,
+                        "mae": 0.6081,
+                        "mse": 2.9093
+                    },
+                    "execution_time_seconds": 629.14
+                },
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.9008,
+                        "r2": 0.8497,
+                        "mae": 1.4383,
+                        "mse": 15.2166
+                    },
+                    "execution_time_seconds": 483.97
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-18 18:15:54",
+            "spark_mode": "stress_test",
+            "spark_config": {
+                "executor_instances": 4,
+                "executor_cores": 2,
+                "executor_memory": "3g",
+                "shuffle_partitions": 200,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 1.8811,
+                        "r2": 0.9772,
+                        "mae": 0.613,
+                        "mse": 3.5385
+                    },
+                    "execution_time_seconds": 669.55
+                },
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.8623,
+                        "r2": 0.8529,
+                        "mae": 1.4068,
+                        "mse": 14.917
+                    },
+                    "execution_time_seconds": 504.78
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-18 18:36:26",
+            "spark_mode": "low_overhead",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 2,
+                "executor_memory": "4g",
+                "shuffle_partitions": 25,
+                "adaptive": false
+            },
+            "model_results": [
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 1.8811,
+                        "r2": 0.9772,
+                        "mae": 0.613,
+                        "mse": 3.5386
+                    },
+                    "execution_time_seconds": 465.85
+                },
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.8623,
+                        "r2": 0.8529,
+                        "mae": 1.4068,
+                        "mse": 14.917
+                    },
+                    "execution_time_seconds": 417.12
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-18 18:56:36",
+            "spark_mode": "aqe_only",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 1,
+                "executor_memory": "3g",
+                "shuffle_partitions": 50,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 1.8811,
+                        "r2": 0.9772,
+                        "mae": 0.613,
+                        "mse": 3.5386
+                    },
+                    "execution_time_seconds": 448.15
+                },
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.8623,
+                        "r2": 0.8529,
+                        "mae": 1.4068,
+                        "mse": 14.917
+                    },
+                    "execution_time_seconds": 400.23
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-18 19:19:10",
+            "spark_mode": "cpu_heavy",
+            "spark_config": {
+                "executor_instances": 3,
+                "executor_cores": 3,
+                "executor_memory": "3g",
+                "shuffle_partitions": 150,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 1.8811,
+                        "r2": 0.9772,
+                        "mae": 0.613,
+                        "mse": 3.5386
+                    },
+                    "execution_time_seconds": 429.08
+                },
+                {
+                    "model_name": "DecisionTreeRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.8623,
+                        "r2": 0.8529,
+                        "mae": 1.4068,
+                        "mse": 14.917
+                    },
+                    "execution_time_seconds": 418.62
+                }
+            ]
+        }
+    ]
+}
