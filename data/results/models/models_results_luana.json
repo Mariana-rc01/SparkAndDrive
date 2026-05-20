@@ -1,0 +1,300 @@
+{
+    "runs": [
+        {
+            "timestamp": "2026-05-19 13:41:02",
+            "spark_mode": "baseline",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 1,
+                "executor_memory": "3g",
+                "shuffle_partitions": 50,
+                "adaptive": false
+            },
+            "model_results": [
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.3832,
+                        "r2": 0.9633,
+                        "mae": 1.3547,
+                        "mse": 5.6795
+                    },
+                    "execution_time_seconds": 855.35
+                },
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.5665,
+                        "r2": 0.7931,
+                        "mae": 2.6997,
+                        "mse": 20.853
+                    },
+                    "execution_time_seconds": 766.68
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-19 14:16:27",
+            "spark_mode": "balanced",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 2,
+                "executor_memory": "4g",
+                "shuffle_partitions": 100,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.3599,
+                        "r2": 0.9641,
+                        "mae": 1.26,
+                        "mse": 5.5689
+                    },
+                    "execution_time_seconds": 717.7
+                },
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.5774,
+                        "r2": 0.7931,
+                        "mae": 2.6915,
+                        "mse": 20.9528
+                    },
+                    "execution_time_seconds": 652.27
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-19 14:50:10",
+            "spark_mode": "high_parallelism",
+            "spark_config": {
+                "executor_instances": 3,
+                "executor_cores": 2,
+                "executor_memory": "4g",
+                "shuffle_partitions": 150,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.4122,
+                        "r2": 0.9624,
+                        "mae": 1.3509,
+                        "mse": 5.8189
+                    },
+                    "execution_time_seconds": 740.9
+                },
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.528,
+                        "r2": 0.7967,
+                        "mae": 2.6526,
+                        "mse": 20.5025
+                    },
+                    "execution_time_seconds": 689.17
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-19 16:42:38",
+            "spark_mode": "memory_optimized",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 1,
+                "executor_memory": "6g",
+                "shuffle_partitions": 100,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.3599,
+                        "r2": 0.9641,
+                        "mae": 1.26,
+                        "mse": 5.5689
+                    },
+                    "execution_time_seconds": 925.75
+                },
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.5774,
+                        "r2": 0.7931,
+                        "mae": 2.6915,
+                        "mse": 20.9528
+                    },
+                    "execution_time_seconds": 760.91
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-19 17:17:50",
+            "spark_mode": "stress_test",
+            "spark_config": {
+                "executor_instances": 4,
+                "executor_cores": 2,
+                "executor_memory": "3g",
+                "shuffle_partitions": 200,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.4113,
+                        "r2": 0.9626,
+                        "mae": 1.3274,
+                        "mse": 5.8143
+                    },
+                    "execution_time_seconds": 795.31
+                },
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.6117,
+                        "r2": 0.7902,
+                        "mae": 2.7312,
+                        "mse": 21.2676
+                    },
+                    "execution_time_seconds": 692.46
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-19 18:03:05",
+            "spark_mode": "low_overhead",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 2,
+                "executor_memory": "4g",
+                "shuffle_partitions": 25,
+                "adaptive": false
+            },
+            "model_results": [
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.4075,
+                        "r2": 0.9626,
+                        "mae": 1.3295,
+                        "mse": 5.7963
+                    },
+                    "execution_time_seconds": 738.49
+                },
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.5965,
+                        "r2": 0.7915,
+                        "mae": 2.7238,
+                        "mse": 21.1277
+                    },
+                    "execution_time_seconds": 651.75
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-19 18:45:47",
+            "spark_mode": "aqe_only",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 1,
+                "executor_memory": "3g",
+                "shuffle_partitions": 50,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.3832,
+                        "r2": 0.9633,
+                        "mae": 1.3547,
+                        "mse": 5.6795
+                    },
+                    "execution_time_seconds": 897.63
+                },
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.5665,
+                        "r2": 0.7931,
+                        "mae": 2.6997,
+                        "mse": 20.853
+                    },
+                    "execution_time_seconds": 799.45
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-19 19:51:36",
+            "spark_mode": "cpu_heavy",
+            "spark_config": {
+                "executor_instances": 3,
+                "executor_cores": 3,
+                "executor_memory": "3g",
+                "shuffle_partitions": 150,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 2.4122,
+                        "r2": 0.9624,
+                        "mae": 1.3509,
+                        "mse": 5.8189
+                    },
+                    "execution_time_seconds": 814.22
+                },
+                {
+                    "model_name": "RandomForestRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 4.528,
+                        "r2": 0.7967,
+                        "mae": 2.6526,
+                        "mse": 20.5025
+                    },
+                    "execution_time_seconds": 683.99
+                }
+            ]
+        }
+    ]
+}
