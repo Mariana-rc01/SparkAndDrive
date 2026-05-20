@@ -1,1500 +1,1500 @@
 {
-    "runs": [
-        {
-            "timestamp": "2026-05-19 14:08:10",
-            "spark_mode": "baseline",
-            "spark_config": {
-                "executor_instances": 2,
-                "executor_cores": 1,
-                "executor_memory": "3g",
-                "shuffle_partitions": 50,
-                "adaptive": false
-            },
-            "metrics": [
-                {
-                    "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 46.3534,
-                    "SQL Time (s)": 2.8456,
-                    "Time Delta (SQL - API)": -43.5078
-                },
-                {
-                    "Query Description": "Q1.2: Tip Paradox by Distance",
-                    "API Time (s)": 2.9582,
-                    "SQL Time (s)": 2.2181,
-                    "Time Delta (SQL - API)": -0.7401
-                },
-                {
-                    "Query Description": "Q1.3: Revenue Composition",
-                    "API Time (s)": 1.1897,
-                    "SQL Time (s)": 0.5239,
-                    "Time Delta (SQL - API)": -0.6658
-                },
-                {
-                    "Query Description": "Q1.4: Payment Method Impact",
-                    "API Time (s)": 2.0605,
-                    "SQL Time (s)": 1.4232,
-                    "Time Delta (SQL - API)": -0.6373
-                },
-                {
-                    "Query Description": "Q1.5: Passenger Count Impact",
-                    "API Time (s)": 2.4837,
-                    "SQL Time (s)": 1.6624,
-                    "Time Delta (SQL - API)": -0.8213
-                },
-                {
-                    "Query Description": "Q1.6: Hourly Tip Dynamics",
-                    "API Time (s)": 2.2424,
-                    "SQL Time (s)": 2.068,
-                    "Time Delta (SQL - API)": -0.1744
-                },
-                {
-                    "Query Description": "Q1.7: Zone Revenue Competition",
-                    "API Time (s)": 5.7533,
-                    "SQL Time (s)": 5.675,
-                    "Time Delta (SQL - API)": -0.0783
-                },
-                {
-                    "Query Description": "Q1.8: Borough Revenue Routes",
-                    "API Time (s)": 3.8472,
-                    "SQL Time (s)": 2.9269,
-                    "Time Delta (SQL - API)": -0.9203
-                },
-                {
-                    "Query Description": "Q2.1: Top 10 pickup locations",
-                    "API Time (s)": 3.1564,
-                    "SQL Time (s)": 2.8151,
-                    "Time Delta (SQL - API)": -0.3414
-                },
-                {
-                    "Query Description": "Q2.2: Same-zone trips",
-                    "API Time (s)": 4.0577,
-                    "SQL Time (s)": 3.6703,
-                    "Time Delta (SQL - API)": -0.3874
-                },
-                {
-                    "Query Description": "Q2.3: Golden revenue routes",
-                    "API Time (s)": 7.3527,
-                    "SQL Time (s)": 5.065,
-                    "Time Delta (SQL - API)": -2.2877
-                },
-                {
-                    "Query Description": "Q3.1: Speed and Revenue by Hour",
-                    "API Time (s)": 2.1422,
-                    "SQL Time (s)": 1.779,
-                    "Time Delta (SQL - API)": -0.3632
-                },
-                {
-                    "Query Description": "Q3.2: Financial Leakage by Phase",
-                    "API Time (s)": 44.9411,
-                    "SQL Time (s)": 44.4314,
-                    "Time Delta (SQL - API)": -0.5098
-                },
-                {
-                    "Query Description": "Q3.3: Operational Efficiency by Hour",
-                    "API Time (s)": 2.5989,
-                    "SQL Time (s)": 1.7074,
-                    "Time Delta (SQL - API)": -0.8915
-                },
-                {
-                    "Query Description": "Q3.4: Idle Time by Zone",
-                    "API Time (s)": 2.6853,
-                    "SQL Time (s)": 2.4801,
-                    "Time Delta (SQL - API)": -0.2052
-                },
-                {
-                    "Query Description": "Q3.5: Trip Distance vs Total Amount",
-                    "API Time (s)": 3.4918,
-                    "SQL Time (s)": 4.3927,
-                    "Time Delta (SQL - API)": 0.9009
-                },
-                {
-                    "Query Description": "Q4.1: Comparison between airports and standard rates",
-                    "API Time (s)": 2.3301,
-                    "SQL Time (s)": 1.893,
-                    "Time Delta (SQL - API)": -0.4371
-                },
-                {
-                    "Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
-                    "API Time (s)": 1.7551,
-                    "SQL Time (s)": 1.1822,
-                    "Time Delta (SQL - API)": -0.5728
-                },
-                {
-                    "Query Description": "Q4.3: Payment Components by airport",
-                    "API Time (s)": 2.4584,
-                    "SQL Time (s)": 1.4008,
-                    "Time Delta (SQL - API)": -1.0576
-                },
-                {
-                    "Query Description": "Q4.4: Heatmap with trips by hour and day of week",
-                    "API Time (s)": 1.7527,
-                    "SQL Time (s)": 1.3105,
-                    "Time Delta (SQL - API)": -0.4423
-                },
-                {
-                    "Query Description": "Q4.5: Impact of Congestion Surcharge",
-                    "API Time (s)": 2.2227,
-                    "SQL Time (s)": 1.7559,
-                    "Time Delta (SQL - API)": -0.4668
-                },
-                {
-                    "Query Description": "Q4.6: Trip distance and total amount by airport",
-                    "API Time (s)": 3.4552,
-                    "SQL Time (s)": 2.544,
-                    "Time Delta (SQL - API)": -0.9112
-                },
-                {
-                    "Query Description": "Q4.7: Distribution of Payment Methods by Airport",
-                    "API Time (s)": 1.8481,
-                    "SQL Time (s)": 1.0091,
-                    "Time Delta (SQL - API)": -0.839
-                },
-                {
-                    "Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
-                    "API Time (s)": 2.4145,
-                    "SQL Time (s)": 1.6802,
-                    "Time Delta (SQL - API)": -0.7343
-                },
-                {
-                    "Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
-                    "API Time (s)": 1.9017,
-                    "SQL Time (s)": 1.3898,
-                    "Time Delta (SQL - API)": -0.5119
-                },
-                {
-                    "Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
-                    "API Time (s)": 2.3543,
-                    "SQL Time (s)": 1.9712,
-                    "Time Delta (SQL - API)": -0.3831
-                },
-                {
-                    "Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
-                    "API Time (s)": 1.607,
-                    "SQL Time (s)": 1.6391,
-                    "Time Delta (SQL - API)": 0.0321
-                },
-                {
-                    "Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
-                    "API Time (s)": 1.6557,
-                    "SQL Time (s)": 1.7212,
-                    "Time Delta (SQL - API)": 0.0654
-                },
-                {
-                    "Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
-                    "API Time (s)": 26.7307,
-                    "SQL Time (s)": 26.8279,
-                    "Time Delta (SQL - API)": 0.0973
-                }
-            ]
-        },
-        {
-            "timestamp": "2026-05-19 14:42:46",
-            "spark_mode": "balanced",
-            "spark_config": {
-                "executor_instances": 2,
-                "executor_cores": 2,
-                "executor_memory": "4g",
-                "shuffle_partitions": 100,
-                "adaptive": true
-            },
-            "metrics": [
-                {
-                    "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 1.5613,
-                    "SQL Time (s)": 1.5938,
-                    "Time Delta (SQL - API)": 0.0325
-                },
-                {
-                    "Query Description": "Q1.2: Tip Paradox by Distance",
-                    "API Time (s)": 1.4549,
-                    "SQL Time (s)": 0.9716,
-                    "Time Delta (SQL - API)": -0.4833
-                },
-                {
-                    "Query Description": "Q1.3: Revenue Composition",
-                    "API Time (s)": 0.6594,
-                    "SQL Time (s)": 0.4236,
-                    "Time Delta (SQL - API)": -0.2358
-                },
-                {
-                    "Query Description": "Q1.4: Payment Method Impact",
-                    "API Time (s)": 1.153,
-                    "SQL Time (s)": 0.6364,
-                    "Time Delta (SQL - API)": -0.5166
-                },
-                {
-                    "Query Description": "Q1.5: Passenger Count Impact",
-                    "API Time (s)": 1.1593,
-                    "SQL Time (s)": 0.7368,
-                    "Time Delta (SQL - API)": -0.4225
-                },
-                {
-                    "Query Description": "Q1.6: Hourly Tip Dynamics",
-                    "API Time (s)": 0.9564,
-                    "SQL Time (s)": 0.9141,
-                    "Time Delta (SQL - API)": -0.0423
-                },
-                {
-                    "Query Description": "Q1.7: Zone Revenue Competition",
-                    "API Time (s)": 2.6539,
-                    "SQL Time (s)": 2.8712,
-                    "Time Delta (SQL - API)": 0.2173
-                },
-                {
-                    "Query Description": "Q1.8: Borough Revenue Routes",
-                    "API Time (s)": 1.9497,
-                    "SQL Time (s)": 1.4833,
-                    "Time Delta (SQL - API)": -0.4664
-                },
-                {
-                    "Query Description": "Q2.1: Top 10 pickup locations",
-                    "API Time (s)": 1.8204,
-                    "SQL Time (s)": 1.8346,
-                    "Time Delta (SQL - API)": 0.0142
-                },
-                {
-                    "Query Description": "Q2.2: Same-zone trips",
-                    "API Time (s)": 3.1097,
-                    "SQL Time (s)": 2.1718,
-                    "Time Delta (SQL - API)": -0.9379
-                },
-                {
-                    "Query Description": "Q2.3: Golden revenue routes",
-                    "API Time (s)": 5.098,
-                    "SQL Time (s)": 3.73,
-                    "Time Delta (SQL - API)": -1.368
-                },
-                {
-                    "Query Description": "Q3.1: Speed and Revenue by Hour",
-                    "API Time (s)": 1.0994,
-                    "SQL Time (s)": 0.7393,
-                    "Time Delta (SQL - API)": -0.3601
-                },
-                {
-                    "Query Description": "Q3.2: Financial Leakage by Phase",
-                    "API Time (s)": 44.5748,
-                    "SQL Time (s)": 43.2319,
-                    "Time Delta (SQL - API)": -1.3429
-                },
-                {
-                    "Query Description": "Q3.3: Operational Efficiency by Hour",
-                    "API Time (s)": 1.4178,
-                    "SQL Time (s)": 1.0263,
-                    "Time Delta (SQL - API)": -0.3915
-                },
-                {
-                    "Query Description": "Q3.4: Idle Time by Zone",
-                    "API Time (s)": 1.9347,
-                    "SQL Time (s)": 1.8143,
-                    "Time Delta (SQL - API)": -0.1204
-                },
-                {
-                    "Query Description": "Q3.5: Trip Distance vs Total Amount",
-                    "API Time (s)": 2.5758,
-                    "SQL Time (s)": 3.0282,
-                    "Time Delta (SQL - API)": 0.4524
-                },
-                {
-                    "Query Description": "Q4.1: Comparison between airports and standard rates",
-                    "API Time (s)": 1.593,
-                    "SQL Time (s)": 1.1996,
-                    "Time Delta (SQL - API)": -0.3934
-                },
-                {
-                    "Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
-                    "API Time (s)": 0.9151,
-                    "SQL Time (s)": 0.5707,
-                    "Time Delta (SQL - API)": -0.3444
-                },
-                {
-                    "Query Description": "Q4.3: Payment Components by airport",
-                    "API Time (s)": 1.5739,
-                    "SQL Time (s)": 0.8298,
-                    "Time Delta (SQL - API)": -0.7441
-                },
-                {
-                    "Query Description": "Q4.4: Heatmap with trips by hour and day of week",
-                    "API Time (s)": 0.9582,
-                    "SQL Time (s)": 0.6856,
-                    "Time Delta (SQL - API)": -0.2726
-                },
-                {
-                    "Query Description": "Q4.5: Impact of Congestion Surcharge",
-                    "API Time (s)": 1.4371,
-                    "SQL Time (s)": 1.0699,
-                    "Time Delta (SQL - API)": -0.3672
-                },
-                {
-                    "Query Description": "Q4.6: Trip distance and total amount by airport",
-                    "API Time (s)": 2.9599,
-                    "SQL Time (s)": 2.8035,
-                    "Time Delta (SQL - API)": -0.1564
-                },
-                {
-                    "Query Description": "Q4.7: Distribution of Payment Methods by Airport",
-                    "API Time (s)": 1.1162,
-                    "SQL Time (s)": 0.4961,
-                    "Time Delta (SQL - API)": -0.6201
-                },
-                {
-                    "Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
-                    "API Time (s)": 1.1713,
-                    "SQL Time (s)": 1.012,
-                    "Time Delta (SQL - API)": -0.1593
-                },
-                {
-                    "Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
-                    "API Time (s)": 1.271,
-                    "SQL Time (s)": 0.6638,
-                    "Time Delta (SQL - API)": -0.6072
-                },
-                {
-                    "Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
-                    "API Time (s)": 1.5283,
-                    "SQL Time (s)": 1.1973,
-                    "Time Delta (SQL - API)": -0.3309
-                },
-                {
-                    "Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
-                    "API Time (s)": 1.2194,
-                    "SQL Time (s)": 1.1085,
-                    "Time Delta (SQL - API)": -0.1109
-                },
-                {
-                    "Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
-                    "API Time (s)": 1.1124,
-                    "SQL Time (s)": 0.9996,
-                    "Time Delta (SQL - API)": -0.1127
-                },
-                {
-                    "Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
-                    "API Time (s)": 26.2541,
-                    "SQL Time (s)": 26.8818,
-                    "Time Delta (SQL - API)": 0.6277
-                }
-            ]
-        },
-        {
-            "timestamp": "2026-05-19 15:36:44",
-            "spark_mode": "high_parallelism",
-            "spark_config": {
-                "executor_instances": 3,
-                "executor_cores": 2,
-                "executor_memory": "4g",
-                "shuffle_partitions": 150,
-                "adaptive": true
-            },
-            "metrics": [
-                {
-                    "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 47.1198,
-                    "SQL Time (s)": 3.4118,
-                    "Time Delta (SQL - API)": -43.708
-                },
-                {
-                    "Query Description": "Q1.2: Tip Paradox by Distance",
-                    "API Time (s)": 3.2291,
-                    "SQL Time (s)": 1.963,
-                    "Time Delta (SQL - API)": -1.2661
-                },
-                {
-                    "Query Description": "Q1.3: Revenue Composition",
-                    "API Time (s)": 1.1,
-                    "SQL Time (s)": 0.7644,
-                    "Time Delta (SQL - API)": -0.3356
-                },
-                {
-                    "Query Description": "Q1.4: Payment Method Impact",
-                    "API Time (s)": 2.3836,
-                    "SQL Time (s)": 1.3753,
-                    "Time Delta (SQL - API)": -1.0083
-                },
-                {
-                    "Query Description": "Q1.5: Passenger Count Impact",
-                    "API Time (s)": 2.8867,
-                    "SQL Time (s)": 1.758,
-                    "Time Delta (SQL - API)": -1.1287
-                },
-                {
-                    "Query Description": "Q1.6: Hourly Tip Dynamics",
-                    "API Time (s)": 2.6913,
-                    "SQL Time (s)": 2.4813,
-                    "Time Delta (SQL - API)": -0.21
-                },
-                {
-                    "Query Description": "Q1.7: Zone Revenue Competition",
-                    "API Time (s)": 6.9279,
-                    "SQL Time (s)": 6.2598,
-                    "Time Delta (SQL - API)": -0.6681
-                },
-                {
-                    "Query Description": "Q1.8: Borough Revenue Routes",
-                    "API Time (s)": 3.4218,
-                    "SQL Time (s)": 2.8538,
-                    "Time Delta (SQL - API)": -0.5681
-                },
-                {
-                    "Query Description": "Q2.1: Top 10 pickup locations",
-                    "API Time (s)": 3.5688,
-                    "SQL Time (s)": 2.6855,
-                    "Time Delta (SQL - API)": -0.8833
-                },
-                {
-                    "Query Description": "Q2.2: Same-zone trips",
-                    "API Time (s)": 4.6448,
-                    "SQL Time (s)": 3.5196,
-                    "Time Delta (SQL - API)": -1.1252
-                },
-                {
-                    "Query Description": "Q2.3: Golden revenue routes",
-                    "API Time (s)": 8.2667,
-                    "SQL Time (s)": 6.0017,
-                    "Time Delta (SQL - API)": -2.265
-                },
-                {
-                    "Query Description": "Q3.1: Speed and Revenue by Hour",
-                    "API Time (s)": 1.994,
-                    "SQL Time (s)": 1.6214,
-                    "Time Delta (SQL - API)": -0.3727
-                },
-                {
-                    "Query Description": "Q3.2: Financial Leakage by Phase",
-                    "API Time (s)": 42.7811,
-                    "SQL Time (s)": 42.0526,
-                    "Time Delta (SQL - API)": -0.7285
-                },
-                {
-                    "Query Description": "Q3.3: Operational Efficiency by Hour",
-                    "API Time (s)": 2.2437,
-                    "SQL Time (s)": 1.9012,
-                    "Time Delta (SQL - API)": -0.3425
-                },
-                {
-                    "Query Description": "Q3.4: Idle Time by Zone",
-                    "API Time (s)": 2.3666,
-                    "SQL Time (s)": 2.2979,
-                    "Time Delta (SQL - API)": -0.0686
-                },
-                {
-                    "Query Description": "Q3.5: Trip Distance vs Total Amount",
-                    "API Time (s)": 3.7564,
-                    "SQL Time (s)": 4.5165,
-                    "Time Delta (SQL - API)": 0.7601
-                },
-                {
-                    "Query Description": "Q4.1: Comparison between airports and standard rates",
-                    "API Time (s)": 2.8189,
-                    "SQL Time (s)": 1.9533,
-                    "Time Delta (SQL - API)": -0.8655
-                },
-                {
-                    "Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
-                    "API Time (s)": 1.7466,
-                    "SQL Time (s)": 1.2379,
-                    "Time Delta (SQL - API)": -0.5087
-                },
-                {
-                    "Query Description": "Q4.3: Payment Components by airport",
-                    "API Time (s)": 2.3881,
-                    "SQL Time (s)": 1.7327,
-                    "Time Delta (SQL - API)": -0.6554
-                },
-                {
-                    "Query Description": "Q4.4: Heatmap with trips by hour and day of week",
-                    "API Time (s)": 1.8749,
-                    "SQL Time (s)": 1.6448,
-                    "Time Delta (SQL - API)": -0.2301
-                },
-                {
-                    "Query Description": "Q4.5: Impact of Congestion Surcharge",
-                    "API Time (s)": 2.4495,
-                    "SQL Time (s)": 1.6661,
-                    "Time Delta (SQL - API)": -0.7834
-                },
-                {
-                    "Query Description": "Q4.6: Trip distance and total amount by airport",
-                    "API Time (s)": 3.5066,
-                    "SQL Time (s)": 3.0175,
-                    "Time Delta (SQL - API)": -0.4891
-                },
-                {
-                    "Query Description": "Q4.7: Distribution of Payment Methods by Airport",
-                    "API Time (s)": 2.0187,
-                    "SQL Time (s)": 1.1428,
-                    "Time Delta (SQL - API)": -0.876
-                },
-                {
-                    "Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
-                    "API Time (s)": 2.2385,
-                    "SQL Time (s)": 1.9808,
-                    "Time Delta (SQL - API)": -0.2577
-                },
-                {
-                    "Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
-                    "API Time (s)": 2.3557,
-                    "SQL Time (s)": 1.4969,
-                    "Time Delta (SQL - API)": -0.8588
-                },
-                {
-                    "Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
-                    "API Time (s)": 2.7303,
-                    "SQL Time (s)": 2.2065,
-                    "Time Delta (SQL - API)": -0.5238
-                },
-                {
-                    "Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
-                    "API Time (s)": 2.1449,
-                    "SQL Time (s)": 2.0692,
-                    "Time Delta (SQL - API)": -0.0758
-                },
-                {
-                    "Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
-                    "API Time (s)": 2.4736,
-                    "SQL Time (s)": 2.1105,
-                    "Time Delta (SQL - API)": -0.363
-                },
-                {
-                    "Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
-                    "API Time (s)": 24.9934,
-                    "SQL Time (s)": 23.7194,
-                    "Time Delta (SQL - API)": -1.274
-                }
-            ]
-        },
-        {
-            "timestamp": "2026-05-19 16:07:50",
-            "spark_mode": "memory_optimized",
-            "spark_config": {
-                "executor_instances": 2,
-                "executor_cores": 1,
-                "executor_memory": "6g",
-                "shuffle_partitions": 100,
-                "adaptive": true
-            },
-            "metrics": [
-                {
-                    "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 1.8955,
-                    "SQL Time (s)": 1.8802,
-                    "Time Delta (SQL - API)": -0.0152
-                },
-                {
-                    "Query Description": "Q1.2: Tip Paradox by Distance",
-                    "API Time (s)": 1.9771,
-                    "SQL Time (s)": 1.1333,
-                    "Time Delta (SQL - API)": -0.8438
-                },
-                {
-                    "Query Description": "Q1.3: Revenue Composition",
-                    "API Time (s)": 0.9327,
-                    "SQL Time (s)": 0.536,
-                    "Time Delta (SQL - API)": -0.3967
-                },
-                {
-                    "Query Description": "Q1.4: Payment Method Impact",
-                    "API Time (s)": 1.2507,
-                    "SQL Time (s)": 0.8292,
-                    "Time Delta (SQL - API)": -0.4215
-                },
-                {
-                    "Query Description": "Q1.5: Passenger Count Impact",
-                    "API Time (s)": 1.7022,
-                    "SQL Time (s)": 1.0619,
-                    "Time Delta (SQL - API)": -0.6403
-                },
-                {
-                    "Query Description": "Q1.6: Hourly Tip Dynamics",
-                    "API Time (s)": 1.4574,
-                    "SQL Time (s)": 1.3696,
-                    "Time Delta (SQL - API)": -0.0878
-                },
-                {
-                    "Query Description": "Q1.7: Zone Revenue Competition",
-                    "API Time (s)": 4.0115,
-                    "SQL Time (s)": 4.1858,
-                    "Time Delta (SQL - API)": 0.1743
-                },
-                {
-                    "Query Description": "Q1.8: Borough Revenue Routes",
-                    "API Time (s)": 2.444,
-                    "SQL Time (s)": 1.9952,
-                    "Time Delta (SQL - API)": -0.4488
-                },
-                {
-                    "Query Description": "Q2.1: Top 10 pickup locations",
-                    "API Time (s)": 2.7678,
-                    "SQL Time (s)": 1.949,
-                    "Time Delta (SQL - API)": -0.8189
-                },
-                {
-                    "Query Description": "Q2.2: Same-zone trips",
-                    "API Time (s)": 3.6662,
-                    "SQL Time (s)": 2.8886,
-                    "Time Delta (SQL - API)": -0.7776
-                },
-                {
-                    "Query Description": "Q2.3: Golden revenue routes",
-                    "API Time (s)": 6.6165,
-                    "SQL Time (s)": 4.7099,
-                    "Time Delta (SQL - API)": -1.9066
-                },
-                {
-                    "Query Description": "Q3.1: Speed and Revenue by Hour",
-                    "API Time (s)": 1.5896,
-                    "SQL Time (s)": 1.1842,
-                    "Time Delta (SQL - API)": -0.4054
-                },
-                {
-                    "Query Description": "Q3.2: Financial Leakage by Phase",
-                    "API Time (s)": 42.4382,
-                    "SQL Time (s)": 41.1683,
-                    "Time Delta (SQL - API)": -1.2699
-                },
-                {
-                    "Query Description": "Q3.3: Operational Efficiency by Hour",
-                    "API Time (s)": 1.8244,
-                    "SQL Time (s)": 1.5156,
-                    "Time Delta (SQL - API)": -0.3088
-                },
-                {
-                    "Query Description": "Q3.4: Idle Time by Zone",
-                    "API Time (s)": 2.213,
-                    "SQL Time (s)": 2.0642,
-                    "Time Delta (SQL - API)": -0.1488
-                },
-                {
-                    "Query Description": "Q3.5: Trip Distance vs Total Amount",
-                    "API Time (s)": 3.293,
-                    "SQL Time (s)": 4.1159,
-                    "Time Delta (SQL - API)": 0.8229
-                },
-                {
-                    "Query Description": "Q4.1: Comparison between airports and standard rates",
-                    "API Time (s)": 2.1687,
-                    "SQL Time (s)": 1.615,
-                    "Time Delta (SQL - API)": -0.5537
-                },
-                {
-                    "Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
-                    "API Time (s)": 1.6701,
-                    "SQL Time (s)": 0.9504,
-                    "Time Delta (SQL - API)": -0.7197
-                },
-                {
-                    "Query Description": "Q4.3: Payment Components by airport",
-                    "API Time (s)": 2.0617,
-                    "SQL Time (s)": 1.5168,
-                    "Time Delta (SQL - API)": -0.5449
-                },
-                {
-                    "Query Description": "Q4.4: Heatmap with trips by hour and day of week",
-                    "API Time (s)": 1.6547,
-                    "SQL Time (s)": 1.4523,
-                    "Time Delta (SQL - API)": -0.2024
-                },
-                {
-                    "Query Description": "Q4.5: Impact of Congestion Surcharge",
-                    "API Time (s)": 2.1721,
-                    "SQL Time (s)": 1.6558,
-                    "Time Delta (SQL - API)": -0.5163
-                },
-                {
-                    "Query Description": "Q4.6: Trip distance and total amount by airport",
-                    "API Time (s)": 3.4796,
-                    "SQL Time (s)": 2.9545,
-                    "Time Delta (SQL - API)": -0.5251
-                },
-                {
-                    "Query Description": "Q4.7: Distribution of Payment Methods by Airport",
-                    "API Time (s)": 1.7012,
-                    "SQL Time (s)": 0.8528,
-                    "Time Delta (SQL - API)": -0.8484
-                },
-                {
-                    "Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
-                    "API Time (s)": 1.828,
-                    "SQL Time (s)": 1.5994,
-                    "Time Delta (SQL - API)": -0.2286
-                },
-                {
-                    "Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
-                    "API Time (s)": 2.0565,
-                    "SQL Time (s)": 1.0919,
-                    "Time Delta (SQL - API)": -0.9647
-                },
-                {
-                    "Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
-                    "API Time (s)": 2.0825,
-                    "SQL Time (s)": 1.6524,
-                    "Time Delta (SQL - API)": -0.4301
-                },
-                {
-                    "Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
-                    "API Time (s)": 1.6533,
-                    "SQL Time (s)": 1.5975,
-                    "Time Delta (SQL - API)": -0.0558
-                },
-                {
-                    "Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
-                    "API Time (s)": 1.7021,
-                    "SQL Time (s)": 1.5135,
-                    "Time Delta (SQL - API)": -0.1886
-                },
-                {
-                    "Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
-                    "API Time (s)": 22.0189,
-                    "SQL Time (s)": 24.9209,
-                    "Time Delta (SQL - API)": 2.902
-                }
-            ]
-        },
-        {
-            "timestamp": "2026-05-19 16:30:41",
-            "spark_mode": "stress_test",
-            "spark_config": {
-                "executor_instances": 4,
-                "executor_cores": 2,
-                "executor_memory": "3g",
-                "shuffle_partitions": 200,
-                "adaptive": true
-            },
-            "metrics": [
-                {
-                    "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 1.9864,
-                    "SQL Time (s)": 1.9218,
-                    "Time Delta (SQL - API)": -0.0646
-                },
-                {
-                    "Query Description": "Q1.2: Tip Paradox by Distance",
-                    "API Time (s)": 1.5365,
-                    "SQL Time (s)": 0.9804,
-                    "Time Delta (SQL - API)": -0.5561
-                },
-                {
-                    "Query Description": "Q1.3: Revenue Composition",
-                    "API Time (s)": 0.8098,
-                    "SQL Time (s)": 0.4778,
-                    "Time Delta (SQL - API)": -0.332
-                },
-                {
-                    "Query Description": "Q1.4: Payment Method Impact",
-                    "API Time (s)": 1.1312,
-                    "SQL Time (s)": 0.8316,
-                    "Time Delta (SQL - API)": -0.2996
-                },
-                {
-                    "Query Description": "Q1.5: Passenger Count Impact",
-                    "API Time (s)": 1.4375,
-                    "SQL Time (s)": 0.8518,
-                    "Time Delta (SQL - API)": -0.5857
-                },
-                {
-                    "Query Description": "Q1.6: Hourly Tip Dynamics",
-                    "API Time (s)": 1.2794,
-                    "SQL Time (s)": 1.0395,
-                    "Time Delta (SQL - API)": -0.2399
-                },
-                {
-                    "Query Description": "Q1.7: Zone Revenue Competition",
-                    "API Time (s)": 3.6664,
-                    "SQL Time (s)": 3.6051,
-                    "Time Delta (SQL - API)": -0.0613
-                },
-                {
-                    "Query Description": "Q1.8: Borough Revenue Routes",
-                    "API Time (s)": 2.0976,
-                    "SQL Time (s)": 1.649,
-                    "Time Delta (SQL - API)": -0.4486
-                },
-                {
-                    "Query Description": "Q2.1: Top 10 pickup locations",
-                    "API Time (s)": 2.4065,
-                    "SQL Time (s)": 1.8363,
-                    "Time Delta (SQL - API)": -0.5703
-                },
-                {
-                    "Query Description": "Q2.2: Same-zone trips",
-                    "API Time (s)": 3.161,
-                    "SQL Time (s)": 2.6348,
-                    "Time Delta (SQL - API)": -0.5263
-                },
-                {
-                    "Query Description": "Q2.3: Golden revenue routes",
-                    "API Time (s)": 6.3265,
-                    "SQL Time (s)": 5.1263,
-                    "Time Delta (SQL - API)": -1.2002
-                },
-                {
-                    "Query Description": "Q3.1: Speed and Revenue by Hour",
-                    "API Time (s)": 1.6519,
-                    "SQL Time (s)": 1.1626,
-                    "Time Delta (SQL - API)": -0.4893
-                },
-                {
-                    "Query Description": "Q3.2: Financial Leakage by Phase",
-                    "API Time (s)": 43.3899,
-                    "SQL Time (s)": 41.7637,
-                    "Time Delta (SQL - API)": -1.6262
-                },
-                {
-                    "Query Description": "Q3.3: Operational Efficiency by Hour",
-                    "API Time (s)": 1.7089,
-                    "SQL Time (s)": 1.3896,
-                    "Time Delta (SQL - API)": -0.3193
-                },
-                {
-                    "Query Description": "Q3.4: Idle Time by Zone",
-                    "API Time (s)": 1.8775,
-                    "SQL Time (s)": 1.8749,
-                    "Time Delta (SQL - API)": -0.0026
-                },
-                {
-                    "Query Description": "Q3.5: Trip Distance vs Total Amount",
-                    "API Time (s)": 2.9292,
-                    "SQL Time (s)": 3.7265,
-                    "Time Delta (SQL - API)": 0.7973
-                },
-                {
-                    "Query Description": "Q4.1: Comparison between airports and standard rates",
-                    "API Time (s)": 2.0292,
-                    "SQL Time (s)": 1.4253,
-                    "Time Delta (SQL - API)": -0.6039
-                },
-                {
-                    "Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
-                    "API Time (s)": 1.6021,
-                    "SQL Time (s)": 0.8776,
-                    "Time Delta (SQL - API)": -0.7244
-                },
-                {
-                    "Query Description": "Q4.3: Payment Components by airport",
-                    "API Time (s)": 2.0136,
-                    "SQL Time (s)": 1.3102,
-                    "Time Delta (SQL - API)": -0.7034
-                },
-                {
-                    "Query Description": "Q4.4: Heatmap with trips by hour and day of week",
-                    "API Time (s)": 1.4945,
-                    "SQL Time (s)": 1.2964,
-                    "Time Delta (SQL - API)": -0.1981
-                },
-                {
-                    "Query Description": "Q4.5: Impact of Congestion Surcharge",
-                    "API Time (s)": 2.0172,
-                    "SQL Time (s)": 1.5173,
-                    "Time Delta (SQL - API)": -0.4999
-                },
-                {
-                    "Query Description": "Q4.6: Trip distance and total amount by airport",
-                    "API Time (s)": 3.3058,
-                    "SQL Time (s)": 3.1455,
-                    "Time Delta (SQL - API)": -0.1604
-                },
-                {
-                    "Query Description": "Q4.7: Distribution of Payment Methods by Airport",
-                    "API Time (s)": 1.7408,
-                    "SQL Time (s)": 0.971,
-                    "Time Delta (SQL - API)": -0.7697
-                },
-                {
-                    "Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
-                    "API Time (s)": 1.7676,
-                    "SQL Time (s)": 1.6056,
-                    "Time Delta (SQL - API)": -0.162
-                },
-                {
-                    "Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
-                    "API Time (s)": 1.8976,
-                    "SQL Time (s)": 1.0944,
-                    "Time Delta (SQL - API)": -0.8032
-                },
-                {
-                    "Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
-                    "API Time (s)": 2.0979,
-                    "SQL Time (s)": 1.7016,
-                    "Time Delta (SQL - API)": -0.3963
-                },
-                {
-                    "Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
-                    "API Time (s)": 1.5483,
-                    "SQL Time (s)": 1.5932,
-                    "Time Delta (SQL - API)": 0.0448
-                },
-                {
-                    "Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
-                    "API Time (s)": 1.4927,
-                    "SQL Time (s)": 1.5173,
-                    "Time Delta (SQL - API)": 0.0245
-                },
-                {
-                    "Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
-                    "API Time (s)": 23.0361,
-                    "SQL Time (s)": 25.4149,
-                    "Time Delta (SQL - API)": 2.3788
-                }
-            ]
-        },
-        {
-            "timestamp": "2026-05-19 17:05:00",
-            "spark_mode": "low_overhead",
-            "spark_config": {
-                "executor_instances": 2,
-                "executor_cores": 2,
-                "executor_memory": "4g",
-                "shuffle_partitions": 25,
-                "adaptive": false
-            },
-            "metrics": [
-                {
-                    "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 1.7856,
-                    "SQL Time (s)": 1.7443,
-                    "Time Delta (SQL - API)": -0.0413
-                },
-                {
-                    "Query Description": "Q1.2: Tip Paradox by Distance",
-                    "API Time (s)": 1.8001,
-                    "SQL Time (s)": 1.1082,
-                    "Time Delta (SQL - API)": -0.6919
-                },
-                {
-                    "Query Description": "Q1.3: Revenue Composition",
-                    "API Time (s)": 0.7961,
-                    "SQL Time (s)": 0.5174,
-                    "Time Delta (SQL - API)": -0.2786
-                },
-                {
-                    "Query Description": "Q1.4: Payment Method Impact",
-                    "API Time (s)": 1.2824,
-                    "SQL Time (s)": 0.9022,
-                    "Time Delta (SQL - API)": -0.3802
-                },
-                {
-                    "Query Description": "Q1.5: Passenger Count Impact",
-                    "API Time (s)": 1.4824,
-                    "SQL Time (s)": 1.023,
-                    "Time Delta (SQL - API)": -0.4594
-                },
-                {
-                    "Query Description": "Q1.6: Hourly Tip Dynamics",
-                    "API Time (s)": 1.3538,
-                    "SQL Time (s)": 1.1755,
-                    "Time Delta (SQL - API)": -0.1784
-                },
-                {
-                    "Query Description": "Q1.7: Zone Revenue Competition",
-                    "API Time (s)": 3.7029,
-                    "SQL Time (s)": 3.4164,
-                    "Time Delta (SQL - API)": -0.2865
-                },
-                {
-                    "Query Description": "Q1.8: Borough Revenue Routes",
-                    "API Time (s)": 2.2947,
-                    "SQL Time (s)": 1.9408,
-                    "Time Delta (SQL - API)": -0.354
-                },
-                {
-                    "Query Description": "Q2.1: Top 10 pickup locations",
-                    "API Time (s)": 2.5362,
-                    "SQL Time (s)": 2.0023,
-                    "Time Delta (SQL - API)": -0.5339
-                },
-                {
-                    "Query Description": "Q2.2: Same-zone trips",
-                    "API Time (s)": 3.4731,
-                    "SQL Time (s)": 2.7595,
-                    "Time Delta (SQL - API)": -0.7137
-                },
-                {
-                    "Query Description": "Q2.3: Golden revenue routes",
-                    "API Time (s)": 5.9472,
-                    "SQL Time (s)": 4.5982,
-                    "Time Delta (SQL - API)": -1.349
-                },
-                {
-                    "Query Description": "Q3.1: Speed and Revenue by Hour",
-                    "API Time (s)": 1.4117,
-                    "SQL Time (s)": 1.1563,
-                    "Time Delta (SQL - API)": -0.2554
-                },
-                {
-                    "Query Description": "Q3.2: Financial Leakage by Phase",
-                    "API Time (s)": 42.0672,
-                    "SQL Time (s)": 40.6053,
-                    "Time Delta (SQL - API)": -1.4619
-                },
-                {
-                    "Query Description": "Q3.3: Operational Efficiency by Hour",
-                    "API Time (s)": 1.5984,
-                    "SQL Time (s)": 1.3265,
-                    "Time Delta (SQL - API)": -0.2719
-                },
-                {
-                    "Query Description": "Q3.4: Idle Time by Zone",
-                    "API Time (s)": 2.0926,
-                    "SQL Time (s)": 1.9767,
-                    "Time Delta (SQL - API)": -0.1158
-                },
-                {
-                    "Query Description": "Q3.5: Trip Distance vs Total Amount",
-                    "API Time (s)": 3.3245,
-                    "SQL Time (s)": 4.1912,
-                    "Time Delta (SQL - API)": 0.8666
-                },
-                {
-                    "Query Description": "Q4.1: Comparison between airports and standard rates",
-                    "API Time (s)": 2.1548,
-                    "SQL Time (s)": 1.5667,
-                    "Time Delta (SQL - API)": -0.5882
-                },
-                {
-                    "Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
-                    "API Time (s)": 1.4262,
-                    "SQL Time (s)": 0.9482,
-                    "Time Delta (SQL - API)": -0.478
-                },
-                {
-                    "Query Description": "Q4.3: Payment Components by airport",
-                    "API Time (s)": 2.2674,
-                    "SQL Time (s)": 1.446,
-                    "Time Delta (SQL - API)": -0.8214
-                },
-                {
-                    "Query Description": "Q4.4: Heatmap with trips by hour and day of week",
-                    "API Time (s)": 1.5172,
-                    "SQL Time (s)": 1.0895,
-                    "Time Delta (SQL - API)": -0.4277
-                },
-                {
-                    "Query Description": "Q4.5: Impact of Congestion Surcharge",
-                    "API Time (s)": 2.2577,
-                    "SQL Time (s)": 1.5865,
-                    "Time Delta (SQL - API)": -0.6712
-                },
-                {
-                    "Query Description": "Q4.6: Trip distance and total amount by airport",
-                    "API Time (s)": 3.2435,
-                    "SQL Time (s)": 2.9592,
-                    "Time Delta (SQL - API)": -0.2844
-                },
-                {
-                    "Query Description": "Q4.7: Distribution of Payment Methods by Airport",
-                    "API Time (s)": 1.7106,
-                    "SQL Time (s)": 0.9584,
-                    "Time Delta (SQL - API)": -0.7522
-                },
-                {
-                    "Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
-                    "API Time (s)": 1.8285,
-                    "SQL Time (s)": 1.8453,
-                    "Time Delta (SQL - API)": 0.0168
-                },
-                {
-                    "Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
-                    "API Time (s)": 2.1179,
-                    "SQL Time (s)": 1.3397,
-                    "Time Delta (SQL - API)": -0.7782
-                },
-                {
-                    "Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
-                    "API Time (s)": 2.3973,
-                    "SQL Time (s)": 1.9251,
-                    "Time Delta (SQL - API)": -0.4722
-                },
-                {
-                    "Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
-                    "API Time (s)": 1.5406,
-                    "SQL Time (s)": 1.5589,
-                    "Time Delta (SQL - API)": 0.0182
-                },
-                {
-                    "Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
-                    "API Time (s)": 1.7055,
-                    "SQL Time (s)": 1.5849,
-                    "Time Delta (SQL - API)": -0.1206
-                },
-                {
-                    "Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
-                    "API Time (s)": 23.4932,
-                    "SQL Time (s)": 22.2886,
-                    "Time Delta (SQL - API)": -1.2046
-                }
-            ]
-        },
-        {
-            "timestamp": "2026-05-19 17:26:21",
-            "spark_mode": "aqe_only",
-            "spark_config": {
-                "executor_instances": 2,
-                "executor_cores": 1,
-                "executor_memory": "3g",
-                "shuffle_partitions": 50,
-                "adaptive": true
-            },
-            "metrics": [
-                {
-                    "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 1.7932,
-                    "SQL Time (s)": 1.5991,
-                    "Time Delta (SQL - API)": -0.1941
-                },
-                {
-                    "Query Description": "Q1.2: Tip Paradox by Distance",
-                    "API Time (s)": 1.6646,
-                    "SQL Time (s)": 1.0034,
-                    "Time Delta (SQL - API)": -0.6612
-                },
-                {
-                    "Query Description": "Q1.3: Revenue Composition",
-                    "API Time (s)": 0.7278,
-                    "SQL Time (s)": 0.5281,
-                    "Time Delta (SQL - API)": -0.1997
-                },
-                {
-                    "Query Description": "Q1.4: Payment Method Impact",
-                    "API Time (s)": 1.1742,
-                    "SQL Time (s)": 0.8341,
-                    "Time Delta (SQL - API)": -0.3401
-                },
-                {
-                    "Query Description": "Q1.5: Passenger Count Impact",
-                    "API Time (s)": 1.6522,
-                    "SQL Time (s)": 0.9672,
-                    "Time Delta (SQL - API)": -0.685
-                },
-                {
-                    "Query Description": "Q1.6: Hourly Tip Dynamics",
-                    "API Time (s)": 1.4027,
-                    "SQL Time (s)": 1.1605,
-                    "Time Delta (SQL - API)": -0.2423
-                },
-                {
-                    "Query Description": "Q1.7: Zone Revenue Competition",
-                    "API Time (s)": 3.7021,
-                    "SQL Time (s)": 3.5785,
-                    "Time Delta (SQL - API)": -0.1236
-                },
-                {
-                    "Query Description": "Q1.8: Borough Revenue Routes",
-                    "API Time (s)": 2.3194,
-                    "SQL Time (s)": 1.7044,
-                    "Time Delta (SQL - API)": -0.6151
-                },
-                {
-                    "Query Description": "Q2.1: Top 10 pickup locations",
-                    "API Time (s)": 2.5142,
-                    "SQL Time (s)": 1.8921,
-                    "Time Delta (SQL - API)": -0.6221
-                },
-                {
-                    "Query Description": "Q2.2: Same-zone trips",
-                    "API Time (s)": 3.3541,
-                    "SQL Time (s)": 2.6688,
-                    "Time Delta (SQL - API)": -0.6853
-                },
-                {
-                    "Query Description": "Q2.3: Golden revenue routes",
-                    "API Time (s)": 6.5085,
-                    "SQL Time (s)": 5.1793,
-                    "Time Delta (SQL - API)": -1.3292
-                },
-                {
-                    "Query Description": "Q3.1: Speed and Revenue by Hour",
-                    "API Time (s)": 1.5133,
-                    "SQL Time (s)": 1.1325,
-                    "Time Delta (SQL - API)": -0.3808
-                },
-                {
-                    "Query Description": "Q3.2: Financial Leakage by Phase",
-                    "API Time (s)": 42.786,
-                    "SQL Time (s)": 41.9779,
-                    "Time Delta (SQL - API)": -0.8081
-                },
-                {
-                    "Query Description": "Q3.3: Operational Efficiency by Hour",
-                    "API Time (s)": 1.7771,
-                    "SQL Time (s)": 1.4163,
-                    "Time Delta (SQL - API)": -0.3608
-                },
-                {
-                    "Query Description": "Q3.4: Idle Time by Zone",
-                    "API Time (s)": 2.3331,
-                    "SQL Time (s)": 2.1545,
-                    "Time Delta (SQL - API)": -0.1786
-                },
-                {
-                    "Query Description": "Q3.5: Trip Distance vs Total Amount",
-                    "API Time (s)": 3.2955,
-                    "SQL Time (s)": 3.8457,
-                    "Time Delta (SQL - API)": 0.5503
-                },
-                {
-                    "Query Description": "Q4.1: Comparison between airports and standard rates",
-                    "API Time (s)": 2.1194,
-                    "SQL Time (s)": 1.5266,
-                    "Time Delta (SQL - API)": -0.5928
-                },
-                {
-                    "Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
-                    "API Time (s)": 1.4628,
-                    "SQL Time (s)": 0.9516,
-                    "Time Delta (SQL - API)": -0.5113
-                },
-                {
-                    "Query Description": "Q4.3: Payment Components by airport",
-                    "API Time (s)": 2.3183,
-                    "SQL Time (s)": 1.4496,
-                    "Time Delta (SQL - API)": -0.8687
-                },
-                {
-                    "Query Description": "Q4.4: Heatmap with trips by hour and day of week",
-                    "API Time (s)": 1.4786,
-                    "SQL Time (s)": 1.1081,
-                    "Time Delta (SQL - API)": -0.3705
-                },
-                {
-                    "Query Description": "Q4.5: Impact of Congestion Surcharge",
-                    "API Time (s)": 2.0665,
-                    "SQL Time (s)": 1.5762,
-                    "Time Delta (SQL - API)": -0.4903
-                },
-                {
-                    "Query Description": "Q4.6: Trip distance and total amount by airport",
-                    "API Time (s)": 3.5106,
-                    "SQL Time (s)": 2.9479,
-                    "Time Delta (SQL - API)": -0.5627
-                },
-                {
-                    "Query Description": "Q4.7: Distribution of Payment Methods by Airport",
-                    "API Time (s)": 1.5739,
-                    "SQL Time (s)": 0.8171,
-                    "Time Delta (SQL - API)": -0.7568
-                },
-                {
-                    "Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
-                    "API Time (s)": 1.6576,
-                    "SQL Time (s)": 1.5857,
-                    "Time Delta (SQL - API)": -0.0719
-                },
-                {
-                    "Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
-                    "API Time (s)": 1.8337,
-                    "SQL Time (s)": 0.997,
-                    "Time Delta (SQL - API)": -0.8367
-                },
-                {
-                    "Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
-                    "API Time (s)": 1.9895,
-                    "SQL Time (s)": 1.5767,
-                    "Time Delta (SQL - API)": -0.4128
-                },
-                {
-                    "Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
-                    "API Time (s)": 1.4786,
-                    "SQL Time (s)": 1.5065,
-                    "Time Delta (SQL - API)": 0.0279
-                },
-                {
-                    "Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
-                    "API Time (s)": 1.6117,
-                    "SQL Time (s)": 1.3468,
-                    "Time Delta (SQL - API)": -0.2648
-                },
-                {
-                    "Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
-                    "API Time (s)": 23.6829,
-                    "SQL Time (s)": 24.4839,
-                    "Time Delta (SQL - API)": 0.801
-                }
-            ]
-        },
-        {
-            "timestamp": "2026-05-19 17:45:40",
-            "spark_mode": "cpu_heavy",
-            "spark_config": {
-                "executor_instances": 3,
-                "executor_cores": 3,
-                "executor_memory": "3g",
-                "shuffle_partitions": 150,
-                "adaptive": true
-            },
-            "metrics": [
-                {
-                    "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 1.798,
-                    "SQL Time (s)": 1.6487,
-                    "Time Delta (SQL - API)": -0.1493
-                },
-                {
-                    "Query Description": "Q1.2: Tip Paradox by Distance",
-                    "API Time (s)": 1.647,
-                    "SQL Time (s)": 1.0512,
-                    "Time Delta (SQL - API)": -0.5958
-                },
-                {
-                    "Query Description": "Q1.3: Revenue Composition",
-                    "API Time (s)": 0.718,
-                    "SQL Time (s)": 0.52,
-                    "Time Delta (SQL - API)": -0.198
-                },
-                {
-                    "Query Description": "Q1.4: Payment Method Impact",
-                    "API Time (s)": 1.2256,
-                    "SQL Time (s)": 0.8481,
-                    "Time Delta (SQL - API)": -0.3775
-                },
-                {
-                    "Query Description": "Q1.5: Passenger Count Impact",
-                    "API Time (s)": 1.4953,
-                    "SQL Time (s)": 1.0202,
-                    "Time Delta (SQL - API)": -0.475
-                },
-                {
-                    "Query Description": "Q1.6: Hourly Tip Dynamics",
-                    "API Time (s)": 1.4541,
-                    "SQL Time (s)": 1.2176,
-                    "Time Delta (SQL - API)": -0.2365
-                },
-                {
-                    "Query Description": "Q1.7: Zone Revenue Competition",
-                    "API Time (s)": 3.9655,
-                    "SQL Time (s)": 3.9522,
-                    "Time Delta (SQL - API)": -0.0134
-                },
-                {
-                    "Query Description": "Q1.8: Borough Revenue Routes",
-                    "API Time (s)": 2.3296,
-                    "SQL Time (s)": 1.9331,
-                    "Time Delta (SQL - API)": -0.3965
-                },
-                {
-                    "Query Description": "Q2.1: Top 10 pickup locations",
-                    "API Time (s)": 2.482,
-                    "SQL Time (s)": 1.9784,
-                    "Time Delta (SQL - API)": -0.5036
-                },
-                {
-                    "Query Description": "Q2.2: Same-zone trips",
-                    "API Time (s)": 3.4845,
-                    "SQL Time (s)": 2.8441,
-                    "Time Delta (SQL - API)": -0.6404
-                },
-                {
-                    "Query Description": "Q2.3: Golden revenue routes",
-                    "API Time (s)": 6.5974,
-                    "SQL Time (s)": 5.2223,
-                    "Time Delta (SQL - API)": -1.3751
-                },
-                {
-                    "Query Description": "Q3.1: Speed and Revenue by Hour",
-                    "API Time (s)": 1.6129,
-                    "SQL Time (s)": 1.0867,
-                    "Time Delta (SQL - API)": -0.5262
-                },
-                {
-                    "Query Description": "Q3.2: Financial Leakage by Phase",
-                    "API Time (s)": 42.2496,
-                    "SQL Time (s)": 42.5058,
-                    "Time Delta (SQL - API)": 0.2562
-                },
-                {
-                    "Query Description": "Q3.3: Operational Efficiency by Hour",
-                    "API Time (s)": 1.9578,
-                    "SQL Time (s)": 1.48,
-                    "Time Delta (SQL - API)": -0.4778
-                },
-                {
-                    "Query Description": "Q3.4: Idle Time by Zone",
-                    "API Time (s)": 2.0756,
-                    "SQL Time (s)": 1.9812,
-                    "Time Delta (SQL - API)": -0.0944
-                },
-                {
-                    "Query Description": "Q3.5: Trip Distance vs Total Amount",
-                    "API Time (s)": 3.2975,
-                    "SQL Time (s)": 3.9749,
-                    "Time Delta (SQL - API)": 0.6774
-                },
-                {
-                    "Query Description": "Q4.1: Comparison between airports and standard rates",
-                    "API Time (s)": 2.3212,
-                    "SQL Time (s)": 1.6092,
-                    "Time Delta (SQL - API)": -0.7119
-                },
-                {
-                    "Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
-                    "API Time (s)": 1.3825,
-                    "SQL Time (s)": 0.8455,
-                    "Time Delta (SQL - API)": -0.537
-                },
-                {
-                    "Query Description": "Q4.3: Payment Components by airport",
-                    "API Time (s)": 2.2065,
-                    "SQL Time (s)": 1.4194,
-                    "Time Delta (SQL - API)": -0.7871
-                },
-                {
-                    "Query Description": "Q4.4: Heatmap with trips by hour and day of week",
-                    "API Time (s)": 1.5826,
-                    "SQL Time (s)": 1.2877,
-                    "Time Delta (SQL - API)": -0.2949
-                },
-                {
-                    "Query Description": "Q4.5: Impact of Congestion Surcharge",
-                    "API Time (s)": 2.1796,
-                    "SQL Time (s)": 1.5251,
-                    "Time Delta (SQL - API)": -0.6545
-                },
-                {
-                    "Query Description": "Q4.6: Trip distance and total amount by airport",
-                    "API Time (s)": 3.3557,
-                    "SQL Time (s)": 3.0185,
-                    "Time Delta (SQL - API)": -0.3372
-                },
-                {
-                    "Query Description": "Q4.7: Distribution of Payment Methods by Airport",
-                    "API Time (s)": 1.8174,
-                    "SQL Time (s)": 0.8365,
-                    "Time Delta (SQL - API)": -0.981
-                },
-                {
-                    "Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
-                    "API Time (s)": 1.5563,
-                    "SQL Time (s)": 1.5266,
-                    "Time Delta (SQL - API)": -0.0297
-                },
-                {
-                    "Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
-                    "API Time (s)": 1.9353,
-                    "SQL Time (s)": 1.1644,
-                    "Time Delta (SQL - API)": -0.771
-                },
-                {
-                    "Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
-                    "API Time (s)": 2.1709,
-                    "SQL Time (s)": 1.5224,
-                    "Time Delta (SQL - API)": -0.6485
-                },
-                {
-                    "Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
-                    "API Time (s)": 1.6022,
-                    "SQL Time (s)": 1.4541,
-                    "Time Delta (SQL - API)": -0.1482
-                },
-                {
-                    "Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
-                    "API Time (s)": 1.6781,
-                    "SQL Time (s)": 1.4429,
-                    "Time Delta (SQL - API)": -0.2352
-                },
-                {
-                    "Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
-                    "API Time (s)": 25.5546,
-                    "SQL Time (s)": 24.7794,
-                    "Time Delta (SQL - API)": -0.7752
-                }
-            ]
-        }
-    ]
+	"runs": [
+		{
+			"timestamp": "2026-05-19 14:08:10",
+			"spark_mode": "baseline",
+			"spark_config": {
+				"executor_instances": 2,
+				"executor_cores": 1,
+				"executor_memory": "3g",
+				"shuffle_partitions": 50,
+				"adaptive": false
+			},
+			"metrics": [
+				{
+					"Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
+					"API Time (s)": 2.6493,
+					"SQL Time (s)": 3.3444,
+					"Time Delta (SQL - API)": 0.695
+				},
+				{
+					"Query Description": "Q1.2: Tip Paradox by Distance",
+					"API Time (s)": 2.9582,
+					"SQL Time (s)": 2.2181,
+					"Time Delta (SQL - API)": -0.7401
+				},
+				{
+					"Query Description": "Q1.3: Revenue Composition",
+					"API Time (s)": 1.1897,
+					"SQL Time (s)": 0.5239,
+					"Time Delta (SQL - API)": -0.6658
+				},
+				{
+					"Query Description": "Q1.4: Payment Method Impact",
+					"API Time (s)": 2.0605,
+					"SQL Time (s)": 1.4232,
+					"Time Delta (SQL - API)": -0.6373
+				},
+				{
+					"Query Description": "Q1.5: Passenger Count Impact",
+					"API Time (s)": 2.4837,
+					"SQL Time (s)": 1.6624,
+					"Time Delta (SQL - API)": -0.8213
+				},
+				{
+					"Query Description": "Q1.6: Hourly Tip Dynamics",
+					"API Time (s)": 2.2424,
+					"SQL Time (s)": 2.068,
+					"Time Delta (SQL - API)": -0.1744
+				},
+				{
+					"Query Description": "Q1.7: Zone Revenue Competition",
+					"API Time (s)": 5.7533,
+					"SQL Time (s)": 5.675,
+					"Time Delta (SQL - API)": -0.0783
+				},
+				{
+					"Query Description": "Q1.8: Borough Revenue Routes",
+					"API Time (s)": 3.8472,
+					"SQL Time (s)": 2.9269,
+					"Time Delta (SQL - API)": -0.9203
+				},
+				{
+					"Query Description": "Q2.1: Top 10 pickup locations",
+					"API Time (s)": 3.1564,
+					"SQL Time (s)": 2.8151,
+					"Time Delta (SQL - API)": -0.3414
+				},
+				{
+					"Query Description": "Q2.2: Same-zone trips",
+					"API Time (s)": 4.0577,
+					"SQL Time (s)": 3.6703,
+					"Time Delta (SQL - API)": -0.3874
+				},
+				{
+					"Query Description": "Q2.3: Golden revenue routes",
+					"API Time (s)": 7.3527,
+					"SQL Time (s)": 5.065,
+					"Time Delta (SQL - API)": -2.2877
+				},
+				{
+					"Query Description": "Q3.1: Speed and Revenue by Hour",
+					"API Time (s)": 2.1422,
+					"SQL Time (s)": 1.779,
+					"Time Delta (SQL - API)": -0.3632
+				},
+				{
+					"Query Description": "Q3.2: Financial Leakage by Phase",
+					"API Time (s)": 44.9411,
+					"SQL Time (s)": 44.4314,
+					"Time Delta (SQL - API)": -0.5098
+				},
+				{
+					"Query Description": "Q3.3: Operational Efficiency by Hour",
+					"API Time (s)": 2.5989,
+					"SQL Time (s)": 1.7074,
+					"Time Delta (SQL - API)": -0.8915
+				},
+				{
+					"Query Description": "Q3.4: Idle Time by Zone",
+					"API Time (s)": 2.6853,
+					"SQL Time (s)": 2.4801,
+					"Time Delta (SQL - API)": -0.2052
+				},
+				{
+					"Query Description": "Q3.5: Trip Distance vs Total Amount",
+					"API Time (s)": 3.4918,
+					"SQL Time (s)": 4.3927,
+					"Time Delta (SQL - API)": 0.9009
+				},
+				{
+					"Query Description": "Q4.1: Comparison between airports and standard rates",
+					"API Time (s)": 2.3301,
+					"SQL Time (s)": 1.893,
+					"Time Delta (SQL - API)": -0.4371
+				},
+				{
+					"Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
+					"API Time (s)": 1.7551,
+					"SQL Time (s)": 1.1822,
+					"Time Delta (SQL - API)": -0.5728
+				},
+				{
+					"Query Description": "Q4.3: Payment Components by airport",
+					"API Time (s)": 2.4584,
+					"SQL Time (s)": 1.4008,
+					"Time Delta (SQL - API)": -1.0576
+				},
+				{
+					"Query Description": "Q4.4: Heatmap with trips by hour and day of week",
+					"API Time (s)": 1.7527,
+					"SQL Time (s)": 1.3105,
+					"Time Delta (SQL - API)": -0.4423
+				},
+				{
+					"Query Description": "Q4.5: Impact of Congestion Surcharge",
+					"API Time (s)": 2.2227,
+					"SQL Time (s)": 1.7559,
+					"Time Delta (SQL - API)": -0.4668
+				},
+				{
+					"Query Description": "Q4.6: Trip distance and total amount by airport",
+					"API Time (s)": 3.4552,
+					"SQL Time (s)": 2.544,
+					"Time Delta (SQL - API)": -0.9112
+				},
+				{
+					"Query Description": "Q4.7: Distribution of Payment Methods by Airport",
+					"API Time (s)": 1.8481,
+					"SQL Time (s)": 1.0091,
+					"Time Delta (SQL - API)": -0.839
+				},
+				{
+					"Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
+					"API Time (s)": 2.4145,
+					"SQL Time (s)": 1.6802,
+					"Time Delta (SQL - API)": -0.7343
+				},
+				{
+					"Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
+					"API Time (s)": 1.9017,
+					"SQL Time (s)": 1.3898,
+					"Time Delta (SQL - API)": -0.5119
+				},
+				{
+					"Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
+					"API Time (s)": 2.3543,
+					"SQL Time (s)": 1.9712,
+					"Time Delta (SQL - API)": -0.3831
+				},
+				{
+					"Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
+					"API Time (s)": 1.607,
+					"SQL Time (s)": 1.6391,
+					"Time Delta (SQL - API)": 0.0321
+				},
+				{
+					"Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
+					"API Time (s)": 1.6557,
+					"SQL Time (s)": 1.7212,
+					"Time Delta (SQL - API)": 0.0654
+				},
+				{
+					"Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
+					"API Time (s)": 26.7307,
+					"SQL Time (s)": 26.8279,
+					"Time Delta (SQL - API)": 0.0973
+				}
+			]
+		},
+		{
+			"timestamp": "2026-05-19 14:42:46",
+			"spark_mode": "balanced",
+			"spark_config": {
+				"executor_instances": 2,
+				"executor_cores": 2,
+				"executor_memory": "4g",
+				"shuffle_partitions": 100,
+				"adaptive": true
+			},
+			"metrics": [
+				{
+					"Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
+					"API Time (s)": 1.5613,
+					"SQL Time (s)": 1.5938,
+					"Time Delta (SQL - API)": 0.0325
+				},
+				{
+					"Query Description": "Q1.2: Tip Paradox by Distance",
+					"API Time (s)": 1.4549,
+					"SQL Time (s)": 0.9716,
+					"Time Delta (SQL - API)": -0.4833
+				},
+				{
+					"Query Description": "Q1.3: Revenue Composition",
+					"API Time (s)": 0.6594,
+					"SQL Time (s)": 0.4236,
+					"Time Delta (SQL - API)": -0.2358
+				},
+				{
+					"Query Description": "Q1.4: Payment Method Impact",
+					"API Time (s)": 1.153,
+					"SQL Time (s)": 0.6364,
+					"Time Delta (SQL - API)": -0.5166
+				},
+				{
+					"Query Description": "Q1.5: Passenger Count Impact",
+					"API Time (s)": 1.1593,
+					"SQL Time (s)": 0.7368,
+					"Time Delta (SQL - API)": -0.4225
+				},
+				{
+					"Query Description": "Q1.6: Hourly Tip Dynamics",
+					"API Time (s)": 0.9564,
+					"SQL Time (s)": 0.9141,
+					"Time Delta (SQL - API)": -0.0423
+				},
+				{
+					"Query Description": "Q1.7: Zone Revenue Competition",
+					"API Time (s)": 2.6539,
+					"SQL Time (s)": 2.8712,
+					"Time Delta (SQL - API)": 0.2173
+				},
+				{
+					"Query Description": "Q1.8: Borough Revenue Routes",
+					"API Time (s)": 1.9497,
+					"SQL Time (s)": 1.4833,
+					"Time Delta (SQL - API)": -0.4664
+				},
+				{
+					"Query Description": "Q2.1: Top 10 pickup locations",
+					"API Time (s)": 1.8204,
+					"SQL Time (s)": 1.8346,
+					"Time Delta (SQL - API)": 0.0142
+				},
+				{
+					"Query Description": "Q2.2: Same-zone trips",
+					"API Time (s)": 3.1097,
+					"SQL Time (s)": 2.1718,
+					"Time Delta (SQL - API)": -0.9379
+				},
+				{
+					"Query Description": "Q2.3: Golden revenue routes",
+					"API Time (s)": 5.098,
+					"SQL Time (s)": 3.73,
+					"Time Delta (SQL - API)": -1.368
+				},
+				{
+					"Query Description": "Q3.1: Speed and Revenue by Hour",
+					"API Time (s)": 1.0994,
+					"SQL Time (s)": 0.7393,
+					"Time Delta (SQL - API)": -0.3601
+				},
+				{
+					"Query Description": "Q3.2: Financial Leakage by Phase",
+					"API Time (s)": 44.5748,
+					"SQL Time (s)": 43.2319,
+					"Time Delta (SQL - API)": -1.3429
+				},
+				{
+					"Query Description": "Q3.3: Operational Efficiency by Hour",
+					"API Time (s)": 1.4178,
+					"SQL Time (s)": 1.0263,
+					"Time Delta (SQL - API)": -0.3915
+				},
+				{
+					"Query Description": "Q3.4: Idle Time by Zone",
+					"API Time (s)": 1.9347,
+					"SQL Time (s)": 1.8143,
+					"Time Delta (SQL - API)": -0.1204
+				},
+				{
+					"Query Description": "Q3.5: Trip Distance vs Total Amount",
+					"API Time (s)": 2.5758,
+					"SQL Time (s)": 3.0282,
+					"Time Delta (SQL - API)": 0.4524
+				},
+				{
+					"Query Description": "Q4.1: Comparison between airports and standard rates",
+					"API Time (s)": 1.593,
+					"SQL Time (s)": 1.1996,
+					"Time Delta (SQL - API)": -0.3934
+				},
+				{
+					"Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
+					"API Time (s)": 0.9151,
+					"SQL Time (s)": 0.5707,
+					"Time Delta (SQL - API)": -0.3444
+				},
+				{
+					"Query Description": "Q4.3: Payment Components by airport",
+					"API Time (s)": 1.5739,
+					"SQL Time (s)": 0.8298,
+					"Time Delta (SQL - API)": -0.7441
+				},
+				{
+					"Query Description": "Q4.4: Heatmap with trips by hour and day of week",
+					"API Time (s)": 0.9582,
+					"SQL Time (s)": 0.6856,
+					"Time Delta (SQL - API)": -0.2726
+				},
+				{
+					"Query Description": "Q4.5: Impact of Congestion Surcharge",
+					"API Time (s)": 1.4371,
+					"SQL Time (s)": 1.0699,
+					"Time Delta (SQL - API)": -0.3672
+				},
+				{
+					"Query Description": "Q4.6: Trip distance and total amount by airport",
+					"API Time (s)": 2.9599,
+					"SQL Time (s)": 2.8035,
+					"Time Delta (SQL - API)": -0.1564
+				},
+				{
+					"Query Description": "Q4.7: Distribution of Payment Methods by Airport",
+					"API Time (s)": 1.1162,
+					"SQL Time (s)": 0.4961,
+					"Time Delta (SQL - API)": -0.6201
+				},
+				{
+					"Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
+					"API Time (s)": 1.1713,
+					"SQL Time (s)": 1.012,
+					"Time Delta (SQL - API)": -0.1593
+				},
+				{
+					"Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
+					"API Time (s)": 1.271,
+					"SQL Time (s)": 0.6638,
+					"Time Delta (SQL - API)": -0.6072
+				},
+				{
+					"Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
+					"API Time (s)": 1.5283,
+					"SQL Time (s)": 1.1973,
+					"Time Delta (SQL - API)": -0.3309
+				},
+				{
+					"Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
+					"API Time (s)": 1.2194,
+					"SQL Time (s)": 1.1085,
+					"Time Delta (SQL - API)": -0.1109
+				},
+				{
+					"Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
+					"API Time (s)": 1.1124,
+					"SQL Time (s)": 0.9996,
+					"Time Delta (SQL - API)": -0.1127
+				},
+				{
+					"Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
+					"API Time (s)": 26.2541,
+					"SQL Time (s)": 26.8818,
+					"Time Delta (SQL - API)": 0.6277
+				}
+			]
+		},
+		{
+			"timestamp": "2026-05-19 15:36:44",
+			"spark_mode": "high_parallelism",
+			"spark_config": {
+				"executor_instances": 3,
+				"executor_cores": 2,
+				"executor_memory": "4g",
+				"shuffle_partitions": 150,
+				"adaptive": true
+			},
+			"metrics": [
+				{
+					"Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
+					"API Time (s)": 2.2387,
+					"SQL Time (s)": 2.0914,
+					"Time Delta (SQL - API)": -0.1473
+				},
+				{
+					"Query Description": "Q1.2: Tip Paradox by Distance",
+					"API Time (s)": 3.2291,
+					"SQL Time (s)": 1.963,
+					"Time Delta (SQL - API)": -1.2661
+				},
+				{
+					"Query Description": "Q1.3: Revenue Composition",
+					"API Time (s)": 1.1,
+					"SQL Time (s)": 0.7644,
+					"Time Delta (SQL - API)": -0.3356
+				},
+				{
+					"Query Description": "Q1.4: Payment Method Impact",
+					"API Time (s)": 2.3836,
+					"SQL Time (s)": 1.3753,
+					"Time Delta (SQL - API)": -1.0083
+				},
+				{
+					"Query Description": "Q1.5: Passenger Count Impact",
+					"API Time (s)": 2.8867,
+					"SQL Time (s)": 1.758,
+					"Time Delta (SQL - API)": -1.1287
+				},
+				{
+					"Query Description": "Q1.6: Hourly Tip Dynamics",
+					"API Time (s)": 2.6913,
+					"SQL Time (s)": 2.4813,
+					"Time Delta (SQL - API)": -0.21
+				},
+				{
+					"Query Description": "Q1.7: Zone Revenue Competition",
+					"API Time (s)": 6.9279,
+					"SQL Time (s)": 6.2598,
+					"Time Delta (SQL - API)": -0.6681
+				},
+				{
+					"Query Description": "Q1.8: Borough Revenue Routes",
+					"API Time (s)": 3.4218,
+					"SQL Time (s)": 2.8538,
+					"Time Delta (SQL - API)": -0.5681
+				},
+				{
+					"Query Description": "Q2.1: Top 10 pickup locations",
+					"API Time (s)": 3.5688,
+					"SQL Time (s)": 2.6855,
+					"Time Delta (SQL - API)": -0.8833
+				},
+				{
+					"Query Description": "Q2.2: Same-zone trips",
+					"API Time (s)": 4.6448,
+					"SQL Time (s)": 3.5196,
+					"Time Delta (SQL - API)": -1.1252
+				},
+				{
+					"Query Description": "Q2.3: Golden revenue routes",
+					"API Time (s)": 8.2667,
+					"SQL Time (s)": 6.0017,
+					"Time Delta (SQL - API)": -2.265
+				},
+				{
+					"Query Description": "Q3.1: Speed and Revenue by Hour",
+					"API Time (s)": 1.994,
+					"SQL Time (s)": 1.6214,
+					"Time Delta (SQL - API)": -0.3727
+				},
+				{
+					"Query Description": "Q3.2: Financial Leakage by Phase",
+					"API Time (s)": 42.7811,
+					"SQL Time (s)": 42.0526,
+					"Time Delta (SQL - API)": -0.7285
+				},
+				{
+					"Query Description": "Q3.3: Operational Efficiency by Hour",
+					"API Time (s)": 2.2437,
+					"SQL Time (s)": 1.9012,
+					"Time Delta (SQL - API)": -0.3425
+				},
+				{
+					"Query Description": "Q3.4: Idle Time by Zone",
+					"API Time (s)": 2.3666,
+					"SQL Time (s)": 2.2979,
+					"Time Delta (SQL - API)": -0.0686
+				},
+				{
+					"Query Description": "Q3.5: Trip Distance vs Total Amount",
+					"API Time (s)": 3.7564,
+					"SQL Time (s)": 4.5165,
+					"Time Delta (SQL - API)": 0.7601
+				},
+				{
+					"Query Description": "Q4.1: Comparison between airports and standard rates",
+					"API Time (s)": 2.8189,
+					"SQL Time (s)": 1.9533,
+					"Time Delta (SQL - API)": -0.8655
+				},
+				{
+					"Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
+					"API Time (s)": 1.7466,
+					"SQL Time (s)": 1.2379,
+					"Time Delta (SQL - API)": -0.5087
+				},
+				{
+					"Query Description": "Q4.3: Payment Components by airport",
+					"API Time (s)": 2.3881,
+					"SQL Time (s)": 1.7327,
+					"Time Delta (SQL - API)": -0.6554
+				},
+				{
+					"Query Description": "Q4.4: Heatmap with trips by hour and day of week",
+					"API Time (s)": 1.8749,
+					"SQL Time (s)": 1.6448,
+					"Time Delta (SQL - API)": -0.2301
+				},
+				{
+					"Query Description": "Q4.5: Impact of Congestion Surcharge",
+					"API Time (s)": 2.4495,
+					"SQL Time (s)": 1.6661,
+					"Time Delta (SQL - API)": -0.7834
+				},
+				{
+					"Query Description": "Q4.6: Trip distance and total amount by airport",
+					"API Time (s)": 3.5066,
+					"SQL Time (s)": 3.0175,
+					"Time Delta (SQL - API)": -0.4891
+				},
+				{
+					"Query Description": "Q4.7: Distribution of Payment Methods by Airport",
+					"API Time (s)": 2.0187,
+					"SQL Time (s)": 1.1428,
+					"Time Delta (SQL - API)": -0.876
+				},
+				{
+					"Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
+					"API Time (s)": 2.2385,
+					"SQL Time (s)": 1.9808,
+					"Time Delta (SQL - API)": -0.2577
+				},
+				{
+					"Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
+					"API Time (s)": 2.3557,
+					"SQL Time (s)": 1.4969,
+					"Time Delta (SQL - API)": -0.8588
+				},
+				{
+					"Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
+					"API Time (s)": 2.7303,
+					"SQL Time (s)": 2.2065,
+					"Time Delta (SQL - API)": -0.5238
+				},
+				{
+					"Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
+					"API Time (s)": 2.1449,
+					"SQL Time (s)": 2.0692,
+					"Time Delta (SQL - API)": -0.0758
+				},
+				{
+					"Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
+					"API Time (s)": 2.4736,
+					"SQL Time (s)": 2.1105,
+					"Time Delta (SQL - API)": -0.363
+				},
+				{
+					"Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
+					"API Time (s)": 24.9934,
+					"SQL Time (s)": 23.7194,
+					"Time Delta (SQL - API)": -1.274
+				}
+			]
+		},
+		{
+			"timestamp": "2026-05-19 16:07:50",
+			"spark_mode": "memory_optimized",
+			"spark_config": {
+				"executor_instances": 2,
+				"executor_cores": 1,
+				"executor_memory": "6g",
+				"shuffle_partitions": 100,
+				"adaptive": true
+			},
+			"metrics": [
+				{
+					"Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
+					"API Time (s)": 1.8955,
+					"SQL Time (s)": 1.8802,
+					"Time Delta (SQL - API)": -0.0152
+				},
+				{
+					"Query Description": "Q1.2: Tip Paradox by Distance",
+					"API Time (s)": 1.9771,
+					"SQL Time (s)": 1.1333,
+					"Time Delta (SQL - API)": -0.8438
+				},
+				{
+					"Query Description": "Q1.3: Revenue Composition",
+					"API Time (s)": 0.9327,
+					"SQL Time (s)": 0.536,
+					"Time Delta (SQL - API)": -0.3967
+				},
+				{
+					"Query Description": "Q1.4: Payment Method Impact",
+					"API Time (s)": 1.2507,
+					"SQL Time (s)": 0.8292,
+					"Time Delta (SQL - API)": -0.4215
+				},
+				{
+					"Query Description": "Q1.5: Passenger Count Impact",
+					"API Time (s)": 1.7022,
+					"SQL Time (s)": 1.0619,
+					"Time Delta (SQL - API)": -0.6403
+				},
+				{
+					"Query Description": "Q1.6: Hourly Tip Dynamics",
+					"API Time (s)": 1.4574,
+					"SQL Time (s)": 1.3696,
+					"Time Delta (SQL - API)": -0.0878
+				},
+				{
+					"Query Description": "Q1.7: Zone Revenue Competition",
+					"API Time (s)": 4.0115,
+					"SQL Time (s)": 4.1858,
+					"Time Delta (SQL - API)": 0.1743
+				},
+				{
+					"Query Description": "Q1.8: Borough Revenue Routes",
+					"API Time (s)": 2.444,
+					"SQL Time (s)": 1.9952,
+					"Time Delta (SQL - API)": -0.4488
+				},
+				{
+					"Query Description": "Q2.1: Top 10 pickup locations",
+					"API Time (s)": 2.7678,
+					"SQL Time (s)": 1.949,
+					"Time Delta (SQL - API)": -0.8189
+				},
+				{
+					"Query Description": "Q2.2: Same-zone trips",
+					"API Time (s)": 3.6662,
+					"SQL Time (s)": 2.8886,
+					"Time Delta (SQL - API)": -0.7776
+				},
+				{
+					"Query Description": "Q2.3: Golden revenue routes",
+					"API Time (s)": 6.6165,
+					"SQL Time (s)": 4.7099,
+					"Time Delta (SQL - API)": -1.9066
+				},
+				{
+					"Query Description": "Q3.1: Speed and Revenue by Hour",
+					"API Time (s)": 1.5896,
+					"SQL Time (s)": 1.1842,
+					"Time Delta (SQL - API)": -0.4054
+				},
+				{
+					"Query Description": "Q3.2: Financial Leakage by Phase",
+					"API Time (s)": 42.4382,
+					"SQL Time (s)": 41.1683,
+					"Time Delta (SQL - API)": -1.2699
+				},
+				{
+					"Query Description": "Q3.3: Operational Efficiency by Hour",
+					"API Time (s)": 1.8244,
+					"SQL Time (s)": 1.5156,
+					"Time Delta (SQL - API)": -0.3088
+				},
+				{
+					"Query Description": "Q3.4: Idle Time by Zone",
+					"API Time (s)": 2.213,
+					"SQL Time (s)": 2.0642,
+					"Time Delta (SQL - API)": -0.1488
+				},
+				{
+					"Query Description": "Q3.5: Trip Distance vs Total Amount",
+					"API Time (s)": 3.293,
+					"SQL Time (s)": 4.1159,
+					"Time Delta (SQL - API)": 0.8229
+				},
+				{
+					"Query Description": "Q4.1: Comparison between airports and standard rates",
+					"API Time (s)": 2.1687,
+					"SQL Time (s)": 1.615,
+					"Time Delta (SQL - API)": -0.5537
+				},
+				{
+					"Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
+					"API Time (s)": 1.6701,
+					"SQL Time (s)": 0.9504,
+					"Time Delta (SQL - API)": -0.7197
+				},
+				{
+					"Query Description": "Q4.3: Payment Components by airport",
+					"API Time (s)": 2.0617,
+					"SQL Time (s)": 1.5168,
+					"Time Delta (SQL - API)": -0.5449
+				},
+				{
+					"Query Description": "Q4.4: Heatmap with trips by hour and day of week",
+					"API Time (s)": 1.6547,
+					"SQL Time (s)": 1.4523,
+					"Time Delta (SQL - API)": -0.2024
+				},
+				{
+					"Query Description": "Q4.5: Impact of Congestion Surcharge",
+					"API Time (s)": 2.1721,
+					"SQL Time (s)": 1.6558,
+					"Time Delta (SQL - API)": -0.5163
+				},
+				{
+					"Query Description": "Q4.6: Trip distance and total amount by airport",
+					"API Time (s)": 3.4796,
+					"SQL Time (s)": 2.9545,
+					"Time Delta (SQL - API)": -0.5251
+				},
+				{
+					"Query Description": "Q4.7: Distribution of Payment Methods by Airport",
+					"API Time (s)": 1.7012,
+					"SQL Time (s)": 0.8528,
+					"Time Delta (SQL - API)": -0.8484
+				},
+				{
+					"Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
+					"API Time (s)": 1.828,
+					"SQL Time (s)": 1.5994,
+					"Time Delta (SQL - API)": -0.2286
+				},
+				{
+					"Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
+					"API Time (s)": 2.0565,
+					"SQL Time (s)": 1.0919,
+					"Time Delta (SQL - API)": -0.9647
+				},
+				{
+					"Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
+					"API Time (s)": 2.0825,
+					"SQL Time (s)": 1.6524,
+					"Time Delta (SQL - API)": -0.4301
+				},
+				{
+					"Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
+					"API Time (s)": 1.6533,
+					"SQL Time (s)": 1.5975,
+					"Time Delta (SQL - API)": -0.0558
+				},
+				{
+					"Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
+					"API Time (s)": 1.7021,
+					"SQL Time (s)": 1.5135,
+					"Time Delta (SQL - API)": -0.1886
+				},
+				{
+					"Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
+					"API Time (s)": 22.0189,
+					"SQL Time (s)": 24.9209,
+					"Time Delta (SQL - API)": 2.902
+				}
+			]
+		},
+		{
+			"timestamp": "2026-05-19 16:30:41",
+			"spark_mode": "stress_test",
+			"spark_config": {
+				"executor_instances": 4,
+				"executor_cores": 2,
+				"executor_memory": "3g",
+				"shuffle_partitions": 200,
+				"adaptive": true
+			},
+			"metrics": [
+				{
+					"Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
+					"API Time (s)": 1.9864,
+					"SQL Time (s)": 1.9218,
+					"Time Delta (SQL - API)": -0.0646
+				},
+				{
+					"Query Description": "Q1.2: Tip Paradox by Distance",
+					"API Time (s)": 1.5365,
+					"SQL Time (s)": 0.9804,
+					"Time Delta (SQL - API)": -0.5561
+				},
+				{
+					"Query Description": "Q1.3: Revenue Composition",
+					"API Time (s)": 0.8098,
+					"SQL Time (s)": 0.4778,
+					"Time Delta (SQL - API)": -0.332
+				},
+				{
+					"Query Description": "Q1.4: Payment Method Impact",
+					"API Time (s)": 1.1312,
+					"SQL Time (s)": 0.8316,
+					"Time Delta (SQL - API)": -0.2996
+				},
+				{
+					"Query Description": "Q1.5: Passenger Count Impact",
+					"API Time (s)": 1.4375,
+					"SQL Time (s)": 0.8518,
+					"Time Delta (SQL - API)": -0.5857
+				},
+				{
+					"Query Description": "Q1.6: Hourly Tip Dynamics",
+					"API Time (s)": 1.2794,
+					"SQL Time (s)": 1.0395,
+					"Time Delta (SQL - API)": -0.2399
+				},
+				{
+					"Query Description": "Q1.7: Zone Revenue Competition",
+					"API Time (s)": 3.6664,
+					"SQL Time (s)": 3.6051,
+					"Time Delta (SQL - API)": -0.0613
+				},
+				{
+					"Query Description": "Q1.8: Borough Revenue Routes",
+					"API Time (s)": 2.0976,
+					"SQL Time (s)": 1.649,
+					"Time Delta (SQL - API)": -0.4486
+				},
+				{
+					"Query Description": "Q2.1: Top 10 pickup locations",
+					"API Time (s)": 2.4065,
+					"SQL Time (s)": 1.8363,
+					"Time Delta (SQL - API)": -0.5703
+				},
+				{
+					"Query Description": "Q2.2: Same-zone trips",
+					"API Time (s)": 3.161,
+					"SQL Time (s)": 2.6348,
+					"Time Delta (SQL - API)": -0.5263
+				},
+				{
+					"Query Description": "Q2.3: Golden revenue routes",
+					"API Time (s)": 6.3265,
+					"SQL Time (s)": 5.1263,
+					"Time Delta (SQL - API)": -1.2002
+				},
+				{
+					"Query Description": "Q3.1: Speed and Revenue by Hour",
+					"API Time (s)": 1.6519,
+					"SQL Time (s)": 1.1626,
+					"Time Delta (SQL - API)": -0.4893
+				},
+				{
+					"Query Description": "Q3.2: Financial Leakage by Phase",
+					"API Time (s)": 43.3899,
+					"SQL Time (s)": 41.7637,
+					"Time Delta (SQL - API)": -1.6262
+				},
+				{
+					"Query Description": "Q3.3: Operational Efficiency by Hour",
+					"API Time (s)": 1.7089,
+					"SQL Time (s)": 1.3896,
+					"Time Delta (SQL - API)": -0.3193
+				},
+				{
+					"Query Description": "Q3.4: Idle Time by Zone",
+					"API Time (s)": 1.8775,
+					"SQL Time (s)": 1.8749,
+					"Time Delta (SQL - API)": -0.0026
+				},
+				{
+					"Query Description": "Q3.5: Trip Distance vs Total Amount",
+					"API Time (s)": 2.9292,
+					"SQL Time (s)": 3.7265,
+					"Time Delta (SQL - API)": 0.7973
+				},
+				{
+					"Query Description": "Q4.1: Comparison between airports and standard rates",
+					"API Time (s)": 2.0292,
+					"SQL Time (s)": 1.4253,
+					"Time Delta (SQL - API)": -0.6039
+				},
+				{
+					"Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
+					"API Time (s)": 1.6021,
+					"SQL Time (s)": 0.8776,
+					"Time Delta (SQL - API)": -0.7244
+				},
+				{
+					"Query Description": "Q4.3: Payment Components by airport",
+					"API Time (s)": 2.0136,
+					"SQL Time (s)": 1.3102,
+					"Time Delta (SQL - API)": -0.7034
+				},
+				{
+					"Query Description": "Q4.4: Heatmap with trips by hour and day of week",
+					"API Time (s)": 1.4945,
+					"SQL Time (s)": 1.2964,
+					"Time Delta (SQL - API)": -0.1981
+				},
+				{
+					"Query Description": "Q4.5: Impact of Congestion Surcharge",
+					"API Time (s)": 2.0172,
+					"SQL Time (s)": 1.5173,
+					"Time Delta (SQL - API)": -0.4999
+				},
+				{
+					"Query Description": "Q4.6: Trip distance and total amount by airport",
+					"API Time (s)": 3.3058,
+					"SQL Time (s)": 3.1455,
+					"Time Delta (SQL - API)": -0.1604
+				},
+				{
+					"Query Description": "Q4.7: Distribution of Payment Methods by Airport",
+					"API Time (s)": 1.7408,
+					"SQL Time (s)": 0.971,
+					"Time Delta (SQL - API)": -0.7697
+				},
+				{
+					"Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
+					"API Time (s)": 1.7676,
+					"SQL Time (s)": 1.6056,
+					"Time Delta (SQL - API)": -0.162
+				},
+				{
+					"Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
+					"API Time (s)": 1.8976,
+					"SQL Time (s)": 1.0944,
+					"Time Delta (SQL - API)": -0.8032
+				},
+				{
+					"Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
+					"API Time (s)": 2.0979,
+					"SQL Time (s)": 1.7016,
+					"Time Delta (SQL - API)": -0.3963
+				},
+				{
+					"Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
+					"API Time (s)": 1.5483,
+					"SQL Time (s)": 1.5932,
+					"Time Delta (SQL - API)": 0.0448
+				},
+				{
+					"Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
+					"API Time (s)": 1.4927,
+					"SQL Time (s)": 1.5173,
+					"Time Delta (SQL - API)": 0.0245
+				},
+				{
+					"Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
+					"API Time (s)": 23.0361,
+					"SQL Time (s)": 25.4149,
+					"Time Delta (SQL - API)": 2.3788
+				}
+			]
+		},
+		{
+			"timestamp": "2026-05-19 17:05:00",
+			"spark_mode": "low_overhead",
+			"spark_config": {
+				"executor_instances": 2,
+				"executor_cores": 2,
+				"executor_memory": "4g",
+				"shuffle_partitions": 25,
+				"adaptive": false
+			},
+			"metrics": [
+				{
+					"Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
+					"API Time (s)": 1.7856,
+					"SQL Time (s)": 1.7443,
+					"Time Delta (SQL - API)": -0.0413
+				},
+				{
+					"Query Description": "Q1.2: Tip Paradox by Distance",
+					"API Time (s)": 1.8001,
+					"SQL Time (s)": 1.1082,
+					"Time Delta (SQL - API)": -0.6919
+				},
+				{
+					"Query Description": "Q1.3: Revenue Composition",
+					"API Time (s)": 0.7961,
+					"SQL Time (s)": 0.5174,
+					"Time Delta (SQL - API)": -0.2786
+				},
+				{
+					"Query Description": "Q1.4: Payment Method Impact",
+					"API Time (s)": 1.2824,
+					"SQL Time (s)": 0.9022,
+					"Time Delta (SQL - API)": -0.3802
+				},
+				{
+					"Query Description": "Q1.5: Passenger Count Impact",
+					"API Time (s)": 1.4824,
+					"SQL Time (s)": 1.023,
+					"Time Delta (SQL - API)": -0.4594
+				},
+				{
+					"Query Description": "Q1.6: Hourly Tip Dynamics",
+					"API Time (s)": 1.3538,
+					"SQL Time (s)": 1.1755,
+					"Time Delta (SQL - API)": -0.1784
+				},
+				{
+					"Query Description": "Q1.7: Zone Revenue Competition",
+					"API Time (s)": 3.7029,
+					"SQL Time (s)": 3.4164,
+					"Time Delta (SQL - API)": -0.2865
+				},
+				{
+					"Query Description": "Q1.8: Borough Revenue Routes",
+					"API Time (s)": 2.2947,
+					"SQL Time (s)": 1.9408,
+					"Time Delta (SQL - API)": -0.354
+				},
+				{
+					"Query Description": "Q2.1: Top 10 pickup locations",
+					"API Time (s)": 2.5362,
+					"SQL Time (s)": 2.0023,
+					"Time Delta (SQL - API)": -0.5339
+				},
+				{
+					"Query Description": "Q2.2: Same-zone trips",
+					"API Time (s)": 3.4731,
+					"SQL Time (s)": 2.7595,
+					"Time Delta (SQL - API)": -0.7137
+				},
+				{
+					"Query Description": "Q2.3: Golden revenue routes",
+					"API Time (s)": 5.9472,
+					"SQL Time (s)": 4.5982,
+					"Time Delta (SQL - API)": -1.349
+				},
+				{
+					"Query Description": "Q3.1: Speed and Revenue by Hour",
+					"API Time (s)": 1.4117,
+					"SQL Time (s)": 1.1563,
+					"Time Delta (SQL - API)": -0.2554
+				},
+				{
+					"Query Description": "Q3.2: Financial Leakage by Phase",
+					"API Time (s)": 42.0672,
+					"SQL Time (s)": 40.6053,
+					"Time Delta (SQL - API)": -1.4619
+				},
+				{
+					"Query Description": "Q3.3: Operational Efficiency by Hour",
+					"API Time (s)": 1.5984,
+					"SQL Time (s)": 1.3265,
+					"Time Delta (SQL - API)": -0.2719
+				},
+				{
+					"Query Description": "Q3.4: Idle Time by Zone",
+					"API Time (s)": 2.0926,
+					"SQL Time (s)": 1.9767,
+					"Time Delta (SQL - API)": -0.1158
+				},
+				{
+					"Query Description": "Q3.5: Trip Distance vs Total Amount",
+					"API Time (s)": 3.3245,
+					"SQL Time (s)": 4.1912,
+					"Time Delta (SQL - API)": 0.8666
+				},
+				{
+					"Query Description": "Q4.1: Comparison between airports and standard rates",
+					"API Time (s)": 2.1548,
+					"SQL Time (s)": 1.5667,
+					"Time Delta (SQL - API)": -0.5882
+				},
+				{
+					"Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
+					"API Time (s)": 1.4262,
+					"SQL Time (s)": 0.9482,
+					"Time Delta (SQL - API)": -0.478
+				},
+				{
+					"Query Description": "Q4.3: Payment Components by airport",
+					"API Time (s)": 2.2674,
+					"SQL Time (s)": 1.446,
+					"Time Delta (SQL - API)": -0.8214
+				},
+				{
+					"Query Description": "Q4.4: Heatmap with trips by hour and day of week",
+					"API Time (s)": 1.5172,
+					"SQL Time (s)": 1.0895,
+					"Time Delta (SQL - API)": -0.4277
+				},
+				{
+					"Query Description": "Q4.5: Impact of Congestion Surcharge",
+					"API Time (s)": 2.2577,
+					"SQL Time (s)": 1.5865,
+					"Time Delta (SQL - API)": -0.6712
+				},
+				{
+					"Query Description": "Q4.6: Trip distance and total amount by airport",
+					"API Time (s)": 3.2435,
+					"SQL Time (s)": 2.9592,
+					"Time Delta (SQL - API)": -0.2844
+				},
+				{
+					"Query Description": "Q4.7: Distribution of Payment Methods by Airport",
+					"API Time (s)": 1.7106,
+					"SQL Time (s)": 0.9584,
+					"Time Delta (SQL - API)": -0.7522
+				},
+				{
+					"Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
+					"API Time (s)": 1.8285,
+					"SQL Time (s)": 1.8453,
+					"Time Delta (SQL - API)": 0.0168
+				},
+				{
+					"Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
+					"API Time (s)": 2.1179,
+					"SQL Time (s)": 1.3397,
+					"Time Delta (SQL - API)": -0.7782
+				},
+				{
+					"Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
+					"API Time (s)": 2.3973,
+					"SQL Time (s)": 1.9251,
+					"Time Delta (SQL - API)": -0.4722
+				},
+				{
+					"Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
+					"API Time (s)": 1.5406,
+					"SQL Time (s)": 1.5589,
+					"Time Delta (SQL - API)": 0.0182
+				},
+				{
+					"Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
+					"API Time (s)": 1.7055,
+					"SQL Time (s)": 1.5849,
+					"Time Delta (SQL - API)": -0.1206
+				},
+				{
+					"Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
+					"API Time (s)": 23.4932,
+					"SQL Time (s)": 22.2886,
+					"Time Delta (SQL - API)": -1.2046
+				}
+			]
+		},
+		{
+			"timestamp": "2026-05-19 17:26:21",
+			"spark_mode": "aqe_only",
+			"spark_config": {
+				"executor_instances": 2,
+				"executor_cores": 1,
+				"executor_memory": "3g",
+				"shuffle_partitions": 50,
+				"adaptive": true
+			},
+			"metrics": [
+				{
+					"Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
+					"API Time (s)": 1.7932,
+					"SQL Time (s)": 1.5991,
+					"Time Delta (SQL - API)": -0.1941
+				},
+				{
+					"Query Description": "Q1.2: Tip Paradox by Distance",
+					"API Time (s)": 1.6646,
+					"SQL Time (s)": 1.0034,
+					"Time Delta (SQL - API)": -0.6612
+				},
+				{
+					"Query Description": "Q1.3: Revenue Composition",
+					"API Time (s)": 0.7278,
+					"SQL Time (s)": 0.5281,
+					"Time Delta (SQL - API)": -0.1997
+				},
+				{
+					"Query Description": "Q1.4: Payment Method Impact",
+					"API Time (s)": 1.1742,
+					"SQL Time (s)": 0.8341,
+					"Time Delta (SQL - API)": -0.3401
+				},
+				{
+					"Query Description": "Q1.5: Passenger Count Impact",
+					"API Time (s)": 1.6522,
+					"SQL Time (s)": 0.9672,
+					"Time Delta (SQL - API)": -0.685
+				},
+				{
+					"Query Description": "Q1.6: Hourly Tip Dynamics",
+					"API Time (s)": 1.4027,
+					"SQL Time (s)": 1.1605,
+					"Time Delta (SQL - API)": -0.2423
+				},
+				{
+					"Query Description": "Q1.7: Zone Revenue Competition",
+					"API Time (s)": 3.7021,
+					"SQL Time (s)": 3.5785,
+					"Time Delta (SQL - API)": -0.1236
+				},
+				{
+					"Query Description": "Q1.8: Borough Revenue Routes",
+					"API Time (s)": 2.3194,
+					"SQL Time (s)": 1.7044,
+					"Time Delta (SQL - API)": -0.6151
+				},
+				{
+					"Query Description": "Q2.1: Top 10 pickup locations",
+					"API Time (s)": 2.5142,
+					"SQL Time (s)": 1.8921,
+					"Time Delta (SQL - API)": -0.6221
+				},
+				{
+					"Query Description": "Q2.2: Same-zone trips",
+					"API Time (s)": 3.3541,
+					"SQL Time (s)": 2.6688,
+					"Time Delta (SQL - API)": -0.6853
+				},
+				{
+					"Query Description": "Q2.3: Golden revenue routes",
+					"API Time (s)": 6.5085,
+					"SQL Time (s)": 5.1793,
+					"Time Delta (SQL - API)": -1.3292
+				},
+				{
+					"Query Description": "Q3.1: Speed and Revenue by Hour",
+					"API Time (s)": 1.5133,
+					"SQL Time (s)": 1.1325,
+					"Time Delta (SQL - API)": -0.3808
+				},
+				{
+					"Query Description": "Q3.2: Financial Leakage by Phase",
+					"API Time (s)": 42.786,
+					"SQL Time (s)": 41.9779,
+					"Time Delta (SQL - API)": -0.8081
+				},
+				{
+					"Query Description": "Q3.3: Operational Efficiency by Hour",
+					"API Time (s)": 1.7771,
+					"SQL Time (s)": 1.4163,
+					"Time Delta (SQL - API)": -0.3608
+				},
+				{
+					"Query Description": "Q3.4: Idle Time by Zone",
+					"API Time (s)": 2.3331,
+					"SQL Time (s)": 2.1545,
+					"Time Delta (SQL - API)": -0.1786
+				},
+				{
+					"Query Description": "Q3.5: Trip Distance vs Total Amount",
+					"API Time (s)": 3.2955,
+					"SQL Time (s)": 3.8457,
+					"Time Delta (SQL - API)": 0.5503
+				},
+				{
+					"Query Description": "Q4.1: Comparison between airports and standard rates",
+					"API Time (s)": 2.1194,
+					"SQL Time (s)": 1.5266,
+					"Time Delta (SQL - API)": -0.5928
+				},
+				{
+					"Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
+					"API Time (s)": 1.4628,
+					"SQL Time (s)": 0.9516,
+					"Time Delta (SQL - API)": -0.5113
+				},
+				{
+					"Query Description": "Q4.3: Payment Components by airport",
+					"API Time (s)": 2.3183,
+					"SQL Time (s)": 1.4496,
+					"Time Delta (SQL - API)": -0.8687
+				},
+				{
+					"Query Description": "Q4.4: Heatmap with trips by hour and day of week",
+					"API Time (s)": 1.4786,
+					"SQL Time (s)": 1.1081,
+					"Time Delta (SQL - API)": -0.3705
+				},
+				{
+					"Query Description": "Q4.5: Impact of Congestion Surcharge",
+					"API Time (s)": 2.0665,
+					"SQL Time (s)": 1.5762,
+					"Time Delta (SQL - API)": -0.4903
+				},
+				{
+					"Query Description": "Q4.6: Trip distance and total amount by airport",
+					"API Time (s)": 3.5106,
+					"SQL Time (s)": 2.9479,
+					"Time Delta (SQL - API)": -0.5627
+				},
+				{
+					"Query Description": "Q4.7: Distribution of Payment Methods by Airport",
+					"API Time (s)": 1.5739,
+					"SQL Time (s)": 0.8171,
+					"Time Delta (SQL - API)": -0.7568
+				},
+				{
+					"Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
+					"API Time (s)": 1.6576,
+					"SQL Time (s)": 1.5857,
+					"Time Delta (SQL - API)": -0.0719
+				},
+				{
+					"Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
+					"API Time (s)": 1.8337,
+					"SQL Time (s)": 0.997,
+					"Time Delta (SQL - API)": -0.8367
+				},
+				{
+					"Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
+					"API Time (s)": 1.9895,
+					"SQL Time (s)": 1.5767,
+					"Time Delta (SQL - API)": -0.4128
+				},
+				{
+					"Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
+					"API Time (s)": 1.4786,
+					"SQL Time (s)": 1.5065,
+					"Time Delta (SQL - API)": 0.0279
+				},
+				{
+					"Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
+					"API Time (s)": 1.6117,
+					"SQL Time (s)": 1.3468,
+					"Time Delta (SQL - API)": -0.2648
+				},
+				{
+					"Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
+					"API Time (s)": 23.6829,
+					"SQL Time (s)": 24.4839,
+					"Time Delta (SQL - API)": 0.801
+				}
+			]
+		},
+		{
+			"timestamp": "2026-05-19 17:45:40",
+			"spark_mode": "cpu_heavy",
+			"spark_config": {
+				"executor_instances": 3,
+				"executor_cores": 3,
+				"executor_memory": "3g",
+				"shuffle_partitions": 150,
+				"adaptive": true
+			},
+			"metrics": [
+				{
+					"Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
+					"API Time (s)": 1.798,
+					"SQL Time (s)": 1.6487,
+					"Time Delta (SQL - API)": -0.1493
+				},
+				{
+					"Query Description": "Q1.2: Tip Paradox by Distance",
+					"API Time (s)": 1.647,
+					"SQL Time (s)": 1.0512,
+					"Time Delta (SQL - API)": -0.5958
+				},
+				{
+					"Query Description": "Q1.3: Revenue Composition",
+					"API Time (s)": 0.718,
+					"SQL Time (s)": 0.52,
+					"Time Delta (SQL - API)": -0.198
+				},
+				{
+					"Query Description": "Q1.4: Payment Method Impact",
+					"API Time (s)": 1.2256,
+					"SQL Time (s)": 0.8481,
+					"Time Delta (SQL - API)": -0.3775
+				},
+				{
+					"Query Description": "Q1.5: Passenger Count Impact",
+					"API Time (s)": 1.4953,
+					"SQL Time (s)": 1.0202,
+					"Time Delta (SQL - API)": -0.475
+				},
+				{
+					"Query Description": "Q1.6: Hourly Tip Dynamics",
+					"API Time (s)": 1.4541,
+					"SQL Time (s)": 1.2176,
+					"Time Delta (SQL - API)": -0.2365
+				},
+				{
+					"Query Description": "Q1.7: Zone Revenue Competition",
+					"API Time (s)": 3.9655,
+					"SQL Time (s)": 3.9522,
+					"Time Delta (SQL - API)": -0.0134
+				},
+				{
+					"Query Description": "Q1.8: Borough Revenue Routes",
+					"API Time (s)": 2.3296,
+					"SQL Time (s)": 1.9331,
+					"Time Delta (SQL - API)": -0.3965
+				},
+				{
+					"Query Description": "Q2.1: Top 10 pickup locations",
+					"API Time (s)": 2.482,
+					"SQL Time (s)": 1.9784,
+					"Time Delta (SQL - API)": -0.5036
+				},
+				{
+					"Query Description": "Q2.2: Same-zone trips",
+					"API Time (s)": 3.4845,
+					"SQL Time (s)": 2.8441,
+					"Time Delta (SQL - API)": -0.6404
+				},
+				{
+					"Query Description": "Q2.3: Golden revenue routes",
+					"API Time (s)": 6.5974,
+					"SQL Time (s)": 5.2223,
+					"Time Delta (SQL - API)": -1.3751
+				},
+				{
+					"Query Description": "Q3.1: Speed and Revenue by Hour",
+					"API Time (s)": 1.6129,
+					"SQL Time (s)": 1.0867,
+					"Time Delta (SQL - API)": -0.5262
+				},
+				{
+					"Query Description": "Q3.2: Financial Leakage by Phase",
+					"API Time (s)": 42.2496,
+					"SQL Time (s)": 42.5058,
+					"Time Delta (SQL - API)": 0.2562
+				},
+				{
+					"Query Description": "Q3.3: Operational Efficiency by Hour",
+					"API Time (s)": 1.9578,
+					"SQL Time (s)": 1.48,
+					"Time Delta (SQL - API)": -0.4778
+				},
+				{
+					"Query Description": "Q3.4: Idle Time by Zone",
+					"API Time (s)": 2.0756,
+					"SQL Time (s)": 1.9812,
+					"Time Delta (SQL - API)": -0.0944
+				},
+				{
+					"Query Description": "Q3.5: Trip Distance vs Total Amount",
+					"API Time (s)": 3.2975,
+					"SQL Time (s)": 3.9749,
+					"Time Delta (SQL - API)": 0.6774
+				},
+				{
+					"Query Description": "Q4.1: Comparison between airports and standard rates",
+					"API Time (s)": 2.3212,
+					"SQL Time (s)": 1.6092,
+					"Time Delta (SQL - API)": -0.7119
+				},
+				{
+					"Query Description": "Q4.2: Monthly Evolution of Trips to Airports",
+					"API Time (s)": 1.3825,
+					"SQL Time (s)": 0.8455,
+					"Time Delta (SQL - API)": -0.537
+				},
+				{
+					"Query Description": "Q4.3: Payment Components by airport",
+					"API Time (s)": 2.2065,
+					"SQL Time (s)": 1.4194,
+					"Time Delta (SQL - API)": -0.7871
+				},
+				{
+					"Query Description": "Q4.4: Heatmap with trips by hour and day of week",
+					"API Time (s)": 1.5826,
+					"SQL Time (s)": 1.2877,
+					"Time Delta (SQL - API)": -0.2949
+				},
+				{
+					"Query Description": "Q4.5: Impact of Congestion Surcharge",
+					"API Time (s)": 2.1796,
+					"SQL Time (s)": 1.5251,
+					"Time Delta (SQL - API)": -0.6545
+				},
+				{
+					"Query Description": "Q4.6: Trip distance and total amount by airport",
+					"API Time (s)": 3.3557,
+					"SQL Time (s)": 3.0185,
+					"Time Delta (SQL - API)": -0.3372
+				},
+				{
+					"Query Description": "Q4.7: Distribution of Payment Methods by Airport",
+					"API Time (s)": 1.8174,
+					"SQL Time (s)": 0.8365,
+					"Time Delta (SQL - API)": -0.981
+				},
+				{
+					"Query Description": "Q4.8: Trips and Tip by Passenger Count and Airport",
+					"API Time (s)": 1.5563,
+					"SQL Time (s)": 1.5266,
+					"Time Delta (SQL - API)": -0.0297
+				},
+				{
+					"Query Description": "Q4.9: Monthly Evolution of Average Revenue by Airport",
+					"API Time (s)": 1.9353,
+					"SQL Time (s)": 1.1644,
+					"Time Delta (SQL - API)": -0.771
+				},
+				{
+					"Query Description": "Q5.1: Hourly Analysis of Taxi Operations",
+					"API Time (s)": 2.1709,
+					"SQL Time (s)": 1.5224,
+					"Time Delta (SQL - API)": -0.6485
+				},
+				{
+					"Query Description": "Q5.2: Analysis of Non-Revenue Trips and Disputed Payments",
+					"API Time (s)": 1.6022,
+					"SQL Time (s)": 1.4541,
+					"Time Delta (SQL - API)": -0.1482
+				},
+				{
+					"Query Description": "Q5.3: The Inverse Relationship Between Revenue Density and Traffic Velocity",
+					"API Time (s)": 1.6781,
+					"SQL Time (s)": 1.4429,
+					"Time Delta (SQL - API)": -0.2352
+				},
+				{
+					"Query Description": "Q5.4: Fleet Idle Time and Deadheading Friction Analysis",
+					"API Time (s)": 25.5546,
+					"SQL Time (s)": 24.7794,
+					"Time Delta (SQL - API)": -0.7752
+				}
+			]
+		}
+	]
 }
