@@ -1,0 +1,152 @@
+{
+    "runs": [
+        {
+            "timestamp": "2026-05-20 14:13:39",
+            "spark_mode": "memory_optimized",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 1,
+                "executor_memory": "6g",
+                "shuffle_partitions": 100,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "GBTRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.0366,
+                        "r2": 0.9406,
+                        "mae": 1.7944,
+                        "mse": 9.221
+                    },
+                    "execution_time_seconds": 974.06
+                },
+                {
+                    "model_name": "GBTRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.8624,
+                        "r2": 0.8527,
+                        "mae": 1.9687,
+                        "mse": 14.9178
+                    },
+                    "execution_time_seconds": 1395.15
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-20 14:50:02",
+            "spark_mode": "cpu_heavy",
+            "spark_config": {
+                "executor_instances": 3,
+                "executor_cores": 3,
+                "executor_memory": "3g",
+                "shuffle_partitions": 150,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "GBTRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.0366,
+                        "r2": 0.9406,
+                        "mae": 1.7944,
+                        "mse": 9.221
+                    },
+                    "execution_time_seconds": 829.94
+                },
+                {
+                    "model_name": "GBTRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.8624,
+                        "r2": 0.8527,
+                        "mae": 1.9687,
+                        "mse": 14.9178
+                    },
+                    "execution_time_seconds": 830.37
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-20 16:45:37",
+            "spark_mode": "stress_test",
+            "spark_config": {
+                "executor_instances": 4,
+                "executor_cores": 2,
+                "executor_memory": "3g",
+                "shuffle_partitions": 200,
+                "adaptive": true
+            },
+            "model_results": [
+                {
+                    "model_name": "GBTRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.0237,
+                        "r2": 0.9412,
+                        "mae": 1.8032,
+                        "mse": 9.1428
+                    },
+                    "execution_time_seconds": 908.31
+                },
+                {
+                    "model_name": "GBTRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.9362,
+                        "r2": 0.8472,
+                        "mae": 2.0669,
+                        "mse": 15.4939
+                    },
+                    "execution_time_seconds": 774.69
+                }
+            ]
+        },
+        {
+            "timestamp": "2026-05-20 17:18:07",
+            "spark_mode": "low_overhead",
+            "spark_config": {
+                "executor_instances": 2,
+                "executor_cores": 2,
+                "executor_memory": "4g",
+                "shuffle_partitions": 25,
+                "adaptive": false
+            },
+            "model_results": [
+                {
+                    "model_name": "GBTRegressor",
+                    "target": "total_amount",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.0237,
+                        "r2": 0.9412,
+                        "mae": 1.8032,
+                        "mse": 9.1428
+                    },
+                    "execution_time_seconds": 766.88
+                },
+                {
+                    "model_name": "GBTRegressor",
+                    "target": "trip_duration_min",
+                    "task_type": "regression",
+                    "metrics": {
+                        "rmse": 3.9362,
+                        "r2": 0.8472,
+                        "mae": 2.0669,
+                        "mse": 15.4939
+                    },
+                    "execution_time_seconds": 753.96
+                }
+            ]
+        }
+    ]
+}
