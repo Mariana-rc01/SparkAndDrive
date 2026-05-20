@@ -13,7 +13,7 @@
             "metrics": [
                 {
                     "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 100.0307,
+                    "API Time (s)": 7.09525,
                     "SQL Time (s)": 8.6047,
                     "Time Delta (SQL - API)": -91.426
                 },
@@ -200,7 +200,7 @@
             "metrics": [
                 {
                     "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 96.8686,
+                    "API Time (s)": 5.0665,
                     "SQL Time (s)": 7.9025,
                     "Time Delta (SQL - API)": -88.9661
                 },
@@ -387,7 +387,7 @@
             "metrics": [
                 {
                     "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 99.7423,
+                    "API Time (s)": 7.2671,
                     "SQL Time (s)": 7.8507,
                     "Time Delta (SQL - API)": -91.8916
                 },
@@ -574,7 +574,7 @@
             "metrics": [
                 {
                     "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 100.4117,
+                    "API Time (s)": 4.1986,
                     "SQL Time (s)": 7.4455,
                     "Time Delta (SQL - API)": -92.9662
                 },
@@ -761,7 +761,7 @@
             "metrics": [
                 {
                     "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 109.1412,
+                    "API Time (s)": 6.8135,
                     "SQL Time (s)": 9.8885,
                     "Time Delta (SQL - API)": -99.2527
                 },
@@ -948,7 +948,7 @@
             "metrics": [
                 {
                     "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 96.8042,
+                    "API Time (s)": 4.3548,
                     "SQL Time (s)": 5.987,
                     "Time Delta (SQL - API)": -90.8172
                 },
@@ -1135,7 +1135,7 @@
             "metrics": [
                 {
                     "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 96.0907,
+                    "API Time (s)": 6.1468,
                     "SQL Time (s)": 8.4543,
                     "Time Delta (SQL - API)": -87.6364
                 },
@@ -1322,7 +1322,7 @@
             "metrics": [
                 {
                     "Query Description": "Q1.1: Borough Revenue vs Tip Percentage",
-                    "API Time (s)": 108.9541,
+                    "API Time (s)": 7.2859,
                     "SQL Time (s)": 8.9662,
                     "Time Delta (SQL - API)": -99.9879
                 },
