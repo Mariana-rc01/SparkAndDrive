@@ -8,6 +8,7 @@ import json
 # ==========================================
 st.set_page_config(page_title="NYC Taxi — Spark Performance", layout="wide")
 
+# Updated CSS with hover effects for metric boxes
 st.markdown("""
     <style>
     .metric-box {
@@ -16,6 +17,12 @@ st.markdown("""
         border-radius: 10px;
         padding: 15px 20px;
         box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .metric-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+        border-color: #AEC6CF;
     }
     .metric-label {
         font-size: 11px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px;
@@ -48,16 +55,24 @@ def load_data():
 
 QUERIES_DATA, MODELS_DATA = load_data()
 
-# Original Color Palettes
+# Updated Color Palettes with Pastel Tones
 SCENARIO_COLORS = {
-  'baseline':'#378ADD', 'balanced':'#1D9E75', 'high_parallelism':'#BA7517',
-  'memory_optimized':'#D85A30', 'stress_test':'#E24B4A', 'low_overhead':'#7F77DD',
-  'aqe_only':'#639922', 'cpu_heavy':'#D4537E'
+  'baseline':'#AEC6CF',           # Pastel Blue
+  'balanced':'#B3E2CD',           # Pastel Green
+  'high_parallelism':'#FDE0A3',   # Pastel Yellow
+  'memory_optimized':'#F4B183',   # Pastel Orange
+  'stress_test':'#FFB3BA',        # Pastel Red
+  'low_overhead':'#CBAACB',       # Pastel Purple
+  'aqe_only':'#C8E6C9',           # Pastel Mint
+  'cpu_heavy':'#FFDFD3'           # Pastel Peach
 }
 
 MODEL_COLORS = {
-  'Linear Regression':'#378ADD', 'Decision Tree':'#1D9E75',
-  'GLM':'#BA7517', 'Random Forest':'#7F77DD', 'GBT':'#E24B4A'
+  'Linear Regression':'#AEC6CF',  # Pastel Blue
+  'Decision Tree':'#B3E2CD',      # Pastel Green
+  'GLM':'#FDE0A3',                # Pastel Yellow
+  'Random Forest':'#CBAACB',      # Pastel Purple
+  'GBT':'#FFB3BA'                 # Pastel Red
 }
 
 MODEL_NAME_MAP = {
