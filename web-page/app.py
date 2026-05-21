@@ -39,10 +39,10 @@ st.markdown("""
 @st.cache_data
 def load_data():
     try:
-        with open('data/results/queries/queries_results.json', 'r', encoding='utf-8') as f:
+        with open('queries_results.json', 'r', encoding='utf-8') as f:
             queries_data = json.load(f)
 
-        with open('data/results/models/models_results.json', 'r', encoding='utf-8') as f:
+        with open('models_results.json', 'r', encoding='utf-8') as f:
             models_data = json.load(f)
 
         return queries_data, models_data
