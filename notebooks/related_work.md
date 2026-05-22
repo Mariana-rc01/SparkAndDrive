@@ -1,14 +1,3 @@
-## I. Introduction
-
-The exponential growth of urban mobility data presents significant opportunities for data-driven decision making in transportation systems. New York City, one of the most densely populated cities in the world, generates millions of taxi trip records every month, providing a rich source of data for analysis and predictive modelling.
-
-This project focuses on the **NYC Yellow Taxi Trip dataset for the year 2020**, a period particularly relevant due to the impact of the COVID-19 pandemic on urban mobility patterns. The dataset comprises trip records collected by the NYC Taxi and Limousine Commission (TLC),
-covering attributes such as pickup and dropoff locations, trip distance, fare components, and payment information.
-
-The primary objectives of this project are twofold. First, to perform a comprehensive **exploratory data analysis** of NYC taxi trips in 2020, identifying relevant patterns and trends in urban mobility. Second, to implement a **machine learning pipeline** to predict ..., comparing the performance of several Machine Learning Models.
-
-The entire pipeline, from data ingestion and cleaning to querying and modelling, was implemented using **Apache Spark via PySpark**, deployed on **Google Cloud Dataproc**. This distributed processing platform enables scalable execution across multiple computing nodes, supporting the performance and runtime analysis requirements of large-scale data engineering.
-
 ## II. Related Work
 
 **[1] Do ride-hailing congestion fees in NYC work? (2024)**
