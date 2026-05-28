@@ -3,12 +3,9 @@ import pandas as pd
 import plotly.express as px
 import json
 
-# ==========================================
 # 1. PAGE CONFIGURATION
-# ==========================================
 st.set_page_config(page_title="NYC Taxi — Spark Performance", layout="wide")
 
-# Updated CSS with hover effects for metric boxes
 st.markdown("""
     <style>
     .metric-box {
@@ -33,9 +30,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# ==========================================
 # 2. DATA LOADING
-# ==========================================
 @st.cache_data
 def load_data():
     try:
@@ -55,24 +50,23 @@ def load_data():
 
 QUERIES_DATA, MODELS_DATA = load_data()
 
-# Updated Color Palettes with Pastel Tones
 SCENARIO_COLORS = {
-  'baseline':'#AEC6CF',           # Pastel Blue
-  'balanced':'#B3E2CD',           # Pastel Green
-  'high_parallelism':'#FDE0A3',   # Pastel Yellow
-  'memory_optimized':'#F4B183',   # Pastel Orange
-  'stress_test':'#FFB3BA',        # Pastel Red
-  'low_overhead':'#CBAACB',       # Pastel Purple
-  'aqe_only':'#C8E6C9',           # Pastel Mint
-  'cpu_heavy':'#FFDFD3'           # Pastel Peach
+  'baseline':'#AEC6CF',
+  'balanced':'#B3E2CD',
+  'high_parallelism':'#FDE0A3',
+  'memory_optimized':'#F4B183',
+  'stress_test':'#FFB3BA',
+  'low_overhead':'#CBAACB',
+  'aqe_only':'#C8E6C9',
+  'cpu_heavy':'#FFDFD3'
 }
 
 MODEL_COLORS = {
-  'Linear Regression':'#AEC6CF',  # Pastel Blue
-  'Decision Tree':'#B3E2CD',      # Pastel Green
-  'GLM':'#FDE0A3',                # Pastel Yellow
-  'Random Forest':'#CBAACB',      # Pastel Purple
-  'GBT':'#FFB3BA'                 # Pastel Red
+  'Linear Regression':'#AEC6CF',
+  'Decision Tree':'#B3E2CD',
+  'GLM':'#FDE0A3',
+  'Random Forest':'#CBAACB',
+  'GBT':'#FFB3BA'
 }
 
 MODEL_NAME_MAP = {
@@ -83,9 +77,7 @@ MODEL_NAME_MAP = {
     "GBTRegressor": "GBT"
 }
 
-# ==========================================
 # 3. HEADER & SCENARIOS TABLE
-# ==========================================
 st.title("NYC Taxi 2020 — Spark Performance Dashboard")
 st.markdown("<span style='color:#888;'>Analysis of query execution times and Machine Learning results across cluster configurations.</span>", unsafe_allow_html=True)
 
@@ -112,9 +104,7 @@ if scenarios_info:
 
 st.divider()
 
-# ==========================================
 # 4. TABS
-# ==========================================
 tab_queries, tab_models = st.tabs(["Query Times", "ML Models"])
 
 # --- TAB 1: QUERIES ---
@@ -276,3 +266,4 @@ with tab_models:
             st.plotly_chart(fig_m, use_container_width=True)
         else:
             st.warning("No model data found for the selected filters.")
+
