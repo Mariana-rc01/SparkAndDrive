@@ -1,5 +1,7 @@
 # NYC Yellow Taxi 2020
 
+## Grade: 19.8/20 :star:
+
 ## Overview
 
 This project presents an end-to-end Big Data analytics pipeline built on the **NYC Yellow Taxi Trip Records (2020)** dataset published by the NYC Taxi & Limousine Commission (TLC).
